@@ -1,0 +1,129 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "nl": {
+            "title": "Opleiding",
+            "title_long_prefix": "Dit is mijn",
+            "title_long": "**Onderwijs** Achtergrond"
+        },
+
+        "gh": {
+            "title": "Adesua",
+            "title_long_prefix": "Wei yɛ me",
+            "title_long": "**Adesua** Nsɛm"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/Knust.jpeg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2015",
+                        "end": "12/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "Kwame Nkrumah Univeristy of Science & Technology",
+                            "text": "Earned a Bachelor's degree in Computer Science with a strong emphasis on algorithms, data structures, software engineering, and web development. Acquired practical experience through diverse programming projects and intensive boot camp training, demonstrating a commitment to continuous learning and skill development.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "**Licenciatura** en Ciencias de la Computación",
+                            "info": "Kwame Nkrumah Univeristy of Science & Technology",
+                            "text": "Obtuve una licenciatura en Ciencias de la Computación con un enfoque destacado en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de diversos proyectos de programación y entrenamientos intensivos en bootcamps, demostrando un compromiso con el aprendizaje continuo y el desarrollo de habilidades.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "**Licence** en Informatique",
+                            "info": "Kwame Nkrumah Univeristy of Science & Technology",
+                            "text": "Obtenu une licence en informatique avec un accent particulier sur les algorithmes, les structures de données, l’ingénierie logicielle et le développement web. Acquis une expérience pratique à travers divers projets de programmation et des formations intensives en bootcamp, témoignant d’un engagement envers l’apprentissage continu et le développement des compétences.",
+                            "tags": null
+                        },
+                        "nl": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "Kwame Nkrumah University of Science & Technology",
+                            "text": "Een Bachelor in Computer Science behaald met sterke nadruk op algoritmen, datastructuren, software engineering en webontwikkeling. Praktische ervaring opgedaan door diverse programmeerprojecten en intensieve bootcamp-training, wat de toewijding aan voortdurende ontwikkeling en het verbeteren van vaardigheden toont.",
+                            "tags": null
+                        },
+                        "gh": {
+                            "title": "**Adesua Ntonto** wɔ Computer Science",
+                            "info": "Kwame Nkrumah University of Science & Technology",
+                            "text": "Medi Adesua Ntonto wɔ Computer Science a ɛkyerɛ dɔɔso wɔ algorithms, data structures, software engineering, ne web development. Mebɛnɛɛ nsɛm a ɛyɛ adwuma wɔ nkyerɛmu projects ne boot camp ho nteteɛ ahodoɔ mu, kyerɛkyerɛɛ sika yɛ mu ho kwan ne nkɔsoɔ wɔ me ho nimdeɛ mu.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/owass.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/09/2011",
+                        "end": "01/05/2014"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "General Science **High School Diploma**",
+                            "info": "Opoku Ware School",
+                            "text": "Completed a high school diploma in General Science, with a focus on physics, chemistry, biology, and mathematics. Developed a strong foundation in analytical thinking, problem-solving, and scientific principles through coursework and practical experiments."
+                        },
+                        "es": {
+                            "title": "General Science **High School Diploma**",
+                            "info": "Opoku Ware School",
+                            "text": "Completé un diploma de secundaria en Ciencias Generales, con un enfoque en física, química, biología y matemáticas. Desarrollé una sólida base en pensamiento analítico, resolución de problemas y principios científicos a través de cursos y experimentos prácticos.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "General Science **High School Diploma**",
+                            "info": "Opoku Ware School",
+                            "text": "Terminé un diplôme de lycée en Sciences Générales, avec un accent sur la physique, la chimie, la biologie et les mathématiques. Développé une base solide en pensée analytique, en résolution de problèmes et en principes scientifiques grâce aux cours et aux expériences pratiques.",
+                            "tags": null
+                        },
+                        "nl": {
+                            "title": "Algemene Wetenschappen **Diploma van de middelbare school**",
+                            "info": "Opoku Ware School",
+                            "text": "Afgerond een middelbare schooldiploma in Algemene Wetenschappen, met focus op natuurkunde, scheikunde, biologie en wiskunde. Een sterke basis ontwikkeld in analytisch denken, probleemoplossing en wetenschappelijke principes door cursussen en praktische experimenten."
+                        },
+                        "gh": {
+                            "title": "**Adesua Ntonto** wɔ General Science",
+                            "info": "Opoku Ware School",
+                            "text": "Medi Adesua Ntonto wɔ General Science a ɛdidi ho wɔ physics, chemistry, biology, ne mathematics. Mesiesie me ho wɔ adwene a ɛyɛ nokware nyansa, ɔhaw nnɛyɛɛ, ne nyansapɛ ho nhwehwɛmu de bɔɔ ho ban wɔ adesua ne nsɛm ho nhwehwɛmu mu."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

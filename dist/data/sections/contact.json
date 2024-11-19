@@ -1,0 +1,136 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "No dudes en",
+            "title_long": "**Contácta**me"
+        },
+        "fr": {
+            "title": "Contact",
+            "title_long_prefix": "N'hésitez pas à",
+            "title_long": "Me **Contacter**"
+        },
+        "nl": {
+            "title": "Contact",
+            "title_long_prefix": "Aarzel niet om",
+            "title_long": "**Contact** met mij op te nemen"
+        },
+        "gh": {
+            "title": "Nkɔmmɔ",
+            "title_long_prefix": "Nsuro sɛ wopɛ sɛ wokɔmmɔ",
+            "title_long": "Fa yɛ **Nkɔmmɔ**"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {
+                "action": "mailto:haickemmanuel@gmail.com",
+                "method": "post",
+                "fields": ["name", "email", "message"]
+            },
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "es": {"title": "Envíame un **mensaje**"},
+                "fr": {"title": "Envoyez-moi un **message**"},
+                "nl": {"title": "Stuur mij een **bericht**"},
+                "gh": {"title": "Fa me **asɛm**"}
+            },
+            "items": null
+        },
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "es": {"title": "O si **prefieres**..."},
+                "fr": {"title": "Ou si vous **préférez**..."},
+                "nl": {"title": "Of als je **liever**..."},
+                "gh": {"title": "Anaa sɛ wo **pɛ**..."}
+            },
+            "items": [
+                {
+                    "value": "+233 59 373 9989",
+                    "links": [
+                        {"href": "tel:+233593739989"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"},
+                        "fr": {"title": "Téléphone"},
+                        "nl": {"title": "Telefoon"},
+                        "gh": {"title": "Fɔn"}
+                    }
+                },
+                {
+                    "value": "haickemmanuel@gmail.com",
+                    "links": [
+                        {"href": "mailto:haickemmanuel@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "es": {"title": "Correo electrónico"},
+                        "fr": {"title": "E-mail"},
+                        "nl": {"title": "E-mail"},
+                        "gh": {"title": "Email"}
+                    }
+                },
+                {
+                    "value": "Emmanuel Haick",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/charl-haick-owassbq/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "es": {"title": "LinkedIn"},
+                        "fr": {"title": "LinkedIn"},
+                        "nl": {"title": "LinkedIn"},
+                        "gh": {"title": "LinkedIn"}
+                    }
+                },
+                {
+                    "value": "ITGuru674",
+                    "links": [
+                        {"href": "https://x.com/ITGuru674"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/X.jpg",
+                        "fa": null,
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {"title": "X"},
+                        "es": {"title": "X"},
+                        "fr": {"title": "X"},
+                        "nl": {"title": "X"},
+                        "gh": {"title": "X"}
+                    }
+                }
+            ]
+        }
+    ]
+}

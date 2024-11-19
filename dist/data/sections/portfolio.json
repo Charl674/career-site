@@ -1,0 +1,156 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/momo.webp",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                  
+                    "locales": {
+                            "en": {
+                                "title": "<a href='https://github.com/Charl674/SQL-Queries' target='_blank' rel='noopener noreferrer'>**Optimizing Mobile Money Insights**: Daily Transactions in SQL</a>",
+                                "text": [
+                                    "Analyzed daily mobile money transaction data using SQL to uncover key trends and insights. The analysis focused on transaction volumes, patterns, and customer behavior, providing actionable recommendations to enhance operational efficiency and decision-making."
+                                ],
+                                "tags": ["SQL"]
+                            },
+                            "es": {
+                                "title": "<a href='https://github.com/Charl674/SQL-Queries' target='_blank' rel='noopener noreferrer'>**Optimizando Perspectivas de Dinero Móvil**: Transacciones Diarias en SQL</a>",
+                                "text": [
+                                    "Analicé datos de transacciones diarias de dinero móvil utilizando SQL para identificar tendencias y perspectivas clave. El análisis se centró en volúmenes de transacciones, patrones y comportamiento de los clientes, proporcionando recomendaciones prácticas para mejorar la eficiencia operativa y la toma de decisiones."
+                                ],
+                                "tags": ["SQL"]
+                            },
+                            "fr": {
+                                "title": "<a href='https://github.com/Charl674/SQL-Queries' target='_blank' rel='noopener noreferrer'>**Optimisation des Perspectives Mobile Money**: Transactions Quotidiennes en SQL</a>",
+                                "text": [
+                                    "Analysé les données de transactions quotidiennes de Mobile Money en utilisant SQL pour découvrir des tendances et des perspectives clés. L'analyse s'est concentrée sur les volumes de transactions, les modèles et le comportement des clients, fournissant des recommandations concrètes pour améliorer l'efficacité opérationnelle et la prise de décision."
+                                ],
+                                "tags": ["SQL"]
+                            },
+                            "nl": {
+                                "title": "<a href='https://github.com/Charl674/SQL-Queries' target='_blank' rel='noopener noreferrer'>**Optimaliseren van Mobile Money Inzichten**: Dagelijkse Transacties in SQL</a>",
+                                "text": [
+                                    "Dagelijkse transactiedata van mobiele betalingen geanalyseerd met SQL om belangrijke trends en inzichten te ontdekken. De analyse richtte zich op transactievolumes, patronen en klantgedrag, met bruikbare aanbevelingen om operationele efficiëntie en besluitvorming te verbeteren."
+                                ],
+                                "tags": ["SQL"]
+                            },
+                            "gh": {
+                                "title": "<a href='https://github.com/Charl674/SQL-Queries' target='_blank' rel='noopener noreferrer'>**Mobile Money Ho Nsɛm a Ɛyɛ Den no Yɛhyɛ Mfaho**: Da Biara SQL Nhwehwɛmu</a>",
+                                "text": [
+                                    "Yɛhwɛɛ Mobile Money ɛda biara dwumadie ho data wɔ SQL mu de hwɛɛ nsɛm ho wɔ volumyɛ ho, akwan a wɔfa so yɛ adwuma ho ne ɔmanfoɔ dwumadie. Nhwehwɛmu no boaa ma yɛhyɛɛ adwumadie ho nkɔsoɔ ne nhyehyɛɛ ho mmɔden wɔ mfaho."
+                                ],
+                                "tags": ["SQL"]
+                            }
+                        
+                        
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/credit.webp",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                            "en": {
+                                "title": "<a href='https://github.com/Charl674/credit-card-fraud-detection' target='_blank' rel='noopener noreferrer'>Credit Card **Fraud** Detection</a>",
+                                "text": "Credit card fraud detection is a vital application in the financial industry, leveraging data science and machine learning to identify suspicious transactions. This Python-based project focuses on building a robust and efficient system to classify transactions as either legitimate or fraudulent using historical transaction data.",
+                                "tags": ["Machine Learning", "Python"]
+                            },
+                            "es": {
+                                "title": "<a href='https://github.com/Charl674/credit-card-fraud-detection' target='_blank' rel='noopener noreferrer'>Detección de **Fraude** con Tarjetas de Crédito</a>",
+                                "text": "La detección de fraude con tarjetas de crédito es una aplicación crucial en la industria financiera, que aprovecha la ciencia de datos y el aprendizaje automático para identificar transacciones sospechosas. Este proyecto basado en Python se centra en construir un sistema robusto y eficiente para clasificar transacciones como legítimas o fraudulentas utilizando datos históricos.",
+                                "tags": ["Machine Learning", "Python"]
+                            },
+                            "fr": {
+                                "title": "<a href='https://github.com/Charl674/credit-card-fraud-detection' target='_blank' rel='noopener noreferrer'>Détection de **Fraude** par Carte de Crédit</a>",
+                                "text": "La détection de fraude par carte de crédit est une application essentielle dans le secteur financier, exploitant la science des données et l'apprentissage automatique pour identifier les transactions suspectes. Ce projet basé sur Python se concentre sur la construction d'un système robuste et efficace pour classer les transactions comme légitimes ou frauduleuses à l'aide de données historiques.",
+                                "tags": ["Machine Learning", "Python"]
+                            },
+                            "nl": {
+                                "title": "<a href='https://github.com/Charl674/credit-card-fraud-detection' target='_blank' rel='noopener noreferrer'>Detectie van **Fraude** met Creditcards</a>",
+                                "text": "Creditcardfraudedetectie is een cruciale toepassing in de financiële sector, waarbij data-analyse en machine learning worden gebruikt om verdachte transacties te identificeren. Dit op Python gebaseerde project richt zich op het bouwen van een robuust en efficiënt systeem om transacties te classificeren als legitiem of frauduleus op basis van historische transactiedata.",
+                                "tags": ["Machine Learning", "Python"]
+                            }
+                        
+                        
+                        
+                    }
+                },
+                 {
+                    "icon": {
+                        "img": "images/pictures/movie.webp",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                            "en": {
+                                "title": "<a href='https://github.com/Charl674/movie-recommendation-system' target='_blank' rel='noopener noreferrer'>Movie **Recommendation** System</a>",
+                                "text": "A Movie Recommendation System built using Python and machine learning to predict user preferences and suggest movies based on historical ratings and viewing patterns. This project leverages algorithms like collaborative filtering and content-based filtering to deliver personalized recommendations, enhancing user experience in entertainment platforms.",
+                                "tags": ["Machine Learning", "SkLearn"]
+                            },
+                            "es": {
+                                "title": "<a href='https://github.com/Charl674/movie-recommendation-system' target='_blank' rel='noopener noreferrer'>Sistema de **Recomendación** de Películas</a>",
+                                "text": "Un Sistema de Recomendación de Películas construido con Python y aprendizaje automático para predecir las preferencias de los usuarios y sugerir películas basadas en calificaciones históricas y patrones de visualización. Este proyecto utiliza algoritmos como el filtrado colaborativo y el filtrado basado en contenido para ofrecer recomendaciones personalizadas, mejorando la experiencia del usuario en las plataformas de entretenimiento.",
+                                "tags": ["Machine Learning", "Python", "SkLearn"]
+                            },
+                            "fr": {
+                                "title": "<a href='https://github.com/Charl674/movie-recommendation-system' target='_blank' rel='noopener noreferrer'>Système de **Recommandation** de Films</a>",
+                                "text": "Un Système de Recommandation de Films développé avec Python et l'apprentissage automatique pour prédire les préférences des utilisateurs et suggérer des films en fonction des évaluations historiques et des habitudes de visionnage. Ce projet exploite des algorithmes tels que le filtrage collaboratif et le filtrage basé sur le contenu pour fournir des recommandations personnalisées, améliorant l'expérience utilisateur sur les plateformes de divertissement.",
+                                "tags": ["Machine Learning", "Python", "SkLearn"]
+                            },
+                            "nl": {
+                                "title": "<a href='https://github.com/Charl674/movie-recommendation-system' target='_blank' rel='noopener noreferrer'>Systeem voor **Aanbevelingen** van Films</a>",
+                                "text": "Een Films Aanbevelingssysteem gebouwd met Python en machine learning om de voorkeuren van gebruikers te voorspellen en films aan te bevelen op basis van historische beoordelingen en kijkpatronen. Dit project maakt gebruik van algoritmen zoals collaboratief filteren en contentgebaseerd filteren om gepersonaliseerde aanbevelingen te bieden en de gebruikerservaring op entertainmentplatforms te verbeteren.",
+                                "tags": ["Machine Learning", "Python", "SkLearn"]
+            
+                        }
+                        
+                        
+                        
+                        }
+                        
+                }
+                
+                        
+                
+                
+            ]
+        }
+    ]
+}
