@@ -1,0 +1,195 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Certifications",
+            "title_long_prefix": "Here are my",
+            "title_long": "**Cert**ifications"
+        },
+
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        },
+
+        "fr": {
+            "title": "Réalis",
+            "title_menu": "Réalisations",
+            "title_long_prefix": "Voici",
+            "title_long": "Mes **Réalisations**"
+        },
+
+       "gh": {
+            "title": "Nwoma Ntɔn",
+            "title_menu": "Nwoma Ntɔn",
+            "title_long_prefix": "Ɛwɔ ha",
+            "title_long": "Me **Nwoma Ntɔn**"
+        },
+        "nl": {
+            "title": "Prestaties",
+            "title_menu": "Prestaties",
+            "title_long_prefix": "Hier zijn mijn",
+            "title_long": "**Certificeringen**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certs" },
+                "es": { "title": "Certs" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/ICSI.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    
+                               },
+                    "dates": {
+                        "start": "05/20/2020",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.credential.net/cf3b03c9-dcab-4663-8261-4e9542062c7d" }
+                    ],
+                    "locales": {
+                            "en": {
+                                "title": "**International CyberSecurity** Institute",
+                                "text": "CNSS Certified Network Specialist"
+                            },
+                            "es": {
+                                "text": "Especialista en Redes Certificado CNSS"
+                            },
+                            "fr": {
+                                "text": "Spécialiste des Réseaux Certifié CNSS"
+                            },
+                            "nl": {
+                                "text": "CNSS Gecertificeerde Netwerkspecialist"
+                            },
+                            "gh": {
+                                "text": "CNSS Ahyemfoɔ a wɔahyɛ no ho kwan"
+                            }
+                        
+                        
+                    }
+                },
+
+                {
+                   "icon": {
+                        "img": "images/pictures/ZTM.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "11/13/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.udemy.com/certificate/UC-48494b70-3fbd-4e97-914f-fbb9128a8ca5/" }
+                    ],
+                    "locales": {
+                            "en": {
+                                "title": "**ZTM** Academy",
+                                "text": "Complete A.I. & Machine Learning, Data Science"
+                            },
+                            "es": {
+                                "text": "Completo A.I. y Aprendizaje Automático, Ciencia de Datos"
+                            },
+                            "fr": {
+                                "text": "A.I. et Apprentissage Automatique, Science des Données"
+                            },
+                            "gh": {
+                                "text": "A.I. & Nwoma Nkyerɛmu, Data Science"
+                            },
+                            "nl": {
+                                "text": "Voltooide A.I. & Machine Learning, Data Science"
+                        }
+                        
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-aws",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                    },
+                    "dates": {
+                        "start": "07/23/2024",
+                        "end": "07/23/2027"
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.credly.com/badges/e7c41313-3632-4d36-af09-b69657b61716/linked_in_profile" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Amazon** Web Services",
+                            "text": "AWS Certified Cloud Practitioner"
+                        },
+                        "es": {
+                            "text": "Profesional Certificado de la Nube AWS"
+                        },
+                        "fr": {
+                            "text": "Praticien Certifié AWS Cloud"
+                        },
+                        "nl": {
+                            "text": "AWS Gecertificeerde Cloud Practitioner"
+                        },
+                        "gh": {
+                            "text": "AWS Ahwɛfoɔ a wɔyɛ Kɔmputa so – Dɔkita"
+                        }
+
+                    }},
+                {
+                    "icon": {
+                        "img": "images/pictures/AICPA.jpeg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": { 
+                        "start": "03/01/2021",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/certificate/A4SPEGRF2EWJ" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**AICPA & CIMA**",
+                            "text": "Blockchain Evolution and Technology Concepts"
+                        },
+                        "es": {
+                            "text": "Evolución de Blockchain y Conceptos de Tecnología"
+                        },
+                        "fr": {
+                            "text": "Évolution de la Blockchain et Concepts Technologiques"
+                        },
+                        "nl": {
+                            "text": "Blockchain Evolutie en Technologieconcepten"
+                        },
+                        "gh": {
+                            "text": "Blockchain Mmerɛ ne Ntɛmntɛm Nsɛmfua"
+                        }
+
+                    }
+                }
+                
+            ]
+        }
+
+        
+                    
+                
+            
+        
+    ]
+}

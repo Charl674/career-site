@@ -1,0 +1,253 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Emmanuel Haick!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Emmanuel Haick!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Emmanuel Haick!**"
+        },
+
+        "gh": {
+            "title": "Akwaaba!",
+            "title_menu": "Mede ho bɔ",
+            "title_long_prefix": "Agoo...",
+            "title_long": "Me din de **Koo Emma Haick!**"
+        },
+
+        "nl": {
+            "title": "Welkom!",
+            "title_menu": "Over mij",
+            "title_long_prefix": "Hallo...",
+            "title_long": "Ik ben **Emmanuel Haick!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "gh": {},
+                "nl": {}
+            },
+
+            "items": [
+                {
+                    "value": "Accra – GH",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "haickemmanuel@gmail.com",
+                    "links": [
+                        {"href": "mailto:haickemmanuel@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "charlhaick",
+                    "links": [
+                        {"href": "https://github.com/Charl674"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "gh": {"title": "Mede ho **bɔ kakra**..."},
+                "nl": {"title": "**Een beetje** over mij..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/mylogo.webp",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                        "text": "<p>I’m a seasoned data and cloud professional with a passion for leveraging cutting-edge technologies to solve complex challenges.</p><p>With extensive experience in cloud architecture, data management, and analytics, I help organizations transform data into valuable insights while ensuring scalable, secure cloud solutions.</p><p>I thrive in dynamic environments and am always eager to innovate, build, and improve systems that drive business growth.</p>"
+                    },
+                    "es": {
+                        "text": "<p>Soy un profesional de datos y la nube con una pasión por aprovechar las tecnologías de vanguardia para resolver desafíos complejos.</p><p>Con una amplia experiencia en arquitectura en la nube, gestión de datos y análisis, ayudo a las organizaciones a transformar los datos en información valiosa, garantizando soluciones en la nube escalables y seguras.</p><p>Me adapto bien a entornos dinámicos y siempre estoy dispuesto a innovar, construir y mejorar sistemas que impulsen el crecimiento empresarial.</p>"
+                    },
+                    "fr": {
+                        "text": "<p>Je suis un professionnel du cloud et des données passionné par l'utilisation des technologies de pointe pour résoudre des défis complexes.</p><p>Fort d'une expérience en architecture cloud, gestion des données et analyse, j'aide les organisations à transformer les données en informations précieuses tout en garantissant des solutions cloud évolutives et sécurisées.</p><p>Je m'épanouis dans des environnements dynamiques et suis toujours prêt à innover, construire et améliorer des systèmes qui favorisent la croissance des entreprises.</p>"
+                    },
+                    "gh": {
+                        "text": "<p>Meyɛ data scientist ne cloud professional, na meyɛ adwuma wɔ sɛnea ɛbɛboa yɛn ama yɛatumi ayɛ adwuma de yɛda data ho nsɛm ne cloud technologies bɛboa adwuma mu.</p><p>Mewɔ nimdeɛ wɔ Python, SQL, AWS ne Azure, na mɛyɛ adwuma a ɛho hia a ɛbɛtumi adi dwuma.</p><p>Mewɔ nimdeɛ wɔ cloud architecture ne DevOps a ɛboa ma decisions bɔ adwuma mu no na m'ani da so wɔ cloud environments mu no.</p>"
+                    },
+                    "nl": {
+                        "text": "<p>Ik ben een ervaren data- en cloudprofessional met een passie voor het benutten van geavanceerde technologieën om complexe uitdagingen op te lossen.</p><p>Met uitgebreide ervaring in cloudarchitectuur, datamanagement en analytics help ik organisaties om data om te zetten in waardevolle inzichten, terwijl ik schaalbare en veilige cloudoplossingen waarborg.</p><p>Ik gedij goed in dynamische omgevingen en ben altijd bereid om te innoveren, bouwen en systemen te verbeteren die de zakelijke groei stimuleren.</p>"
+                    }
+
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                    "en": {"title": "**Endorsements**"},
+                    "es": {"title": "**Endosos**"},
+                    "fr": {"title": "**Recommandations**"},
+                    "gh": {"title": "**Akokofo Nsɛm**"},
+                    "nl": {"title": "**Aanbevelingen**"}
+                
+            },
+
+            "items": [
+                {
+                    "value": "Enoch Currie Tetteh",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/currietetteh/"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/curriet.webp",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO <br /><b>Whitsun Computer Systems Ltd</b>",
+                            "text": "<p>Emmanuel is a driven and skilled professional with an exceptional ability to learn, adapt, and deliver innovative solutions. As his mentor, I’ve seen him grow into a confident problem-solver and collaborative team player. His dedication and potential set him apart, and I’m confident he will excel in any endeavor he pursues.</p>"
+                        },
+                        "es": {
+                            "info": "CEO <br /><b>Whitsun Computer Systems Ltd</b>",
+                            "text": "<p>Emmanuel es un profesional motivado y hábil con una capacidad excepcional para aprender, adaptarse y ofrecer soluciones innovadoras. Como su mentor, he visto cómo ha crecido hasta convertirse en un solucionador de problemas seguro y un jugador de equipo colaborativo. Su dedicación y potencial lo distinguen, y estoy seguro de que sobresaldrá en cualquier esfuerzo que emprenda.</p>"
+                        },
+                        "fr": {
+                            "info": "CEO <br /><b>Whitsun Computer Systems Ltd</b>",
+                            "text": "<p>Emmanuel est un professionnel motivé et compétent avec une capacité exceptionnelle à apprendre, s'adapter et fournir des solutions innovantes. En tant que son mentor, j'ai vu son évolution en un résolveur de problèmes confiant et un collaborateur efficace. Son dévouement et son potentiel le distinguent, et je suis convaincu qu'il excellera dans tout ce qu'il entreprendra.</p>"
+                        },
+                        "gh": {
+                            "info": "CEO <br /><b>Whitsun Computer Systems Ltd</b>",
+                            "text": "<p>Emmanuel yɛ ɔbenfo a ɔwɔ akokoduru ne nimdeɛ wɔ adwuma mu. Ɔwɔ tumi pa ara sɛ ɔbɛyɛɛ nneɛma foforɔ, ne sɛ ɔyɛ adwuma a ɛboa na ɛkɔ so, na ɔda nsɛm ho dwinnwen yiye. Sɛ meyɛ ɔkyerɛkyerɛfo a, mahunu sɛ ɔnua yi yɛ ɔbɔyɛfo ne ɔteteɛfo a ɔka ho wɔ nnwuma. Ne ho dɔ a ɔde yɛ adwuma ne tumi a ɔwɔ no yɛ adeɛ pa, na m'ani gye di sɛ ɔbɛyɛ biribiara yiye wɔ ɛnna ɛreba mu.</p>"
+                        },
+                        "nl": {
+                            "info": "CEO <br /><b>Whitsun Computer Systems Ltd</b>",
+                            "text": "<p>Emmanuel is een gedreven en bekwame professional met een uitzonderlijk vermogen om te leren, zich aan te passen en innovatieve oplossingen te leveren. Als zijn mentor heb ik gezien hoe hij is uitgegroeid tot een zelfverzekerde probleemoplosser en samenwerkende teamspeler. Zijn toewijding en potentieel onderscheiden hem, en ik weet zeker dat hij zal uitblinken in elke onderneming die hij aangaat.</p>"
+                        }
+
+                    }
+                },
+                {
+                    "value": "Denzil Owusu-Afriyie",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/denzil-afriyie/"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/Denzel.webp",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            
+                                "info": "Capacity Management & Resource Efficiency (TPM) <br /><b>Google</b>",
+                                "text": "<p>Emmanuel's expertise in business analysis, project management, and machine learning is outstanding. His problem-solving skills and collaborative approach consistently deliver exceptional results. I highly recommend him.</p>"
+                            },
+                            "es": {
+                                "info": "Gestión de Capacidad y Eficiencia de Recursos (TPM) <br /> <b>Google</b>",
+                                "text": "<p>La experiencia de Emmanuel en análisis de negocios, gestión de proyectos y aprendizaje automático es sobresaliente. Sus habilidades para resolver problemas y su enfoque colaborativo entregan resultados excepcionales de manera constante. Lo recomiendo altamente.</p>"
+                            },
+                            "fr": {
+                                "info": "Gestion de la Capacité et Efficacité des Ressources (TPM) <br /><b>Google</b>",
+                                "text": "<p>L'expertise d'Emmanuel en analyse commerciale, gestion de projet et apprentissage automatique est remarquable. Ses compétences en résolution de problèmes et son approche collaborative offrent constamment des résultats exceptionnels. Je le recommande vivement.</p>"
+                            },
+                            "gh": {
+                                "info": "Ahyɛnsodeɛ Ahyehyɛɛ & Akosua Nyansahyɛ (TPM)  <br /><b>Google</b>",
+                                "text": "<p>Emmanuel nim adeɛ pa ara wɔ sika bɔ ho nsɛm, adwuma ahyehyɛ ne suapɔ a ɛyɛ ɔtoɔtoɔ so. Ne tumi sɛ ɔtete nsɛm ho nteteeɛ bɔyɛfoɔ ho ɛtɔ da so ma nkɔsoɔ papa ara. Mehyɛ no nkutoo wɔ adwuma ɛbɛyɛ adom.</p>"     
+                        },
+                            "nl": {
+                                "info": "Capaciteitsbeheer & Hulpbronnen Efficiëntie (TPM) <br /><b>Google</b>",
+                                "text": "<p>Emmanuel's expertise in bedrijfsanalyse, projectmanagement en machine learning is uitstekend. Zijn probleemoplossende vaardigheden en samenwerkingsgerichte aanpak leveren consistent uitzonderlijke resultaten. Ik beveel hem ten zeerste aan.</p>"
+                        }
+
+                    }
+                },
+                {
+                    "value": "Albert Owusu-Banie",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/albertowusubanie/"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/albert.webp",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                            "en": {
+                                "info": "Quantitative Analyst <br /><b>FNB</b>",
+                                "text": "<p>Charl is a driven professional with an exceptional ability to integrate data analysis, cloud technologies, and business strategy. His focus, creativity, and dedication make him a standout problem-solver and a future leader in any organization he joins.</p>"
+                            },
+                            "es": {
+                                "info": "Analista Cuantitativo <br /><b>FNB</b>",
+                                "text": "<p>Charl es un profesional motivado con una capacidad excepcional para integrar el análisis de datos, las tecnologías en la nube y la estrategia empresarial. Su enfoque, creatividad y dedicación lo convierten en un solucionador de problemas destacado y un futuro líder en cualquier organización en la que participe.</p>"
+                            },
+                            "fr": {
+                                "info": "Analyste Quantitatif <br /><b>FNB</b>",
+                                "text": "<p>Charl est un professionnel motivé avec une capacité exceptionnelle à intégrer l'analyse de données, les technologies cloud et la stratégie d'entreprise. Son sens de la concentration, sa créativité et son dévouement en font un résolveur de problèmes remarquable et un futur leader dans toute organisation qu'il rejoint.</p>"
+                            },
+                            "gh": {
+                                "info": "Nkyerɛmu Bɔ Adwumayɛni <br /><b>FNB</b>",
+                                "text": "<p>Charl yɛ ɔbenfo a ɔwɔ tumi pa ara wɔ data analysis, cloud technologies, ne business strategy mu. Ne nnyinaso, adwuma ho nyansa, ne mmɔdenbɔ ma ɔyɛ ɔbɔyɛfo a ɔka ho na ɔde nkɔsoɔ ba wɔ biribiara a ɔyɛ mu. M’ani gye di sɛ ɔbɛyɛ ɔdeɛ yɛ biribiara ho na ɛnyɛ yiye.</p>"                          
+                        },
+                            "nl": {
+                                "info": "Kwantitatief Analist <br /><b>FNB</b>",
+                                "text": "<p>Charl is een gedreven professional met een uitzonderlijk vermogen om data-analyse, cloudtechnologieën en bedrijfsstrategie te integreren. Zijn focus, creativiteit en toewijding maken hem een opvallende probleemoplosser en een toekomstige leider in elke organisatie waar hij zich bij aansluit.</p>"
+                        }
+
+                    }
+                }
+            ]
+        }
+    ]
+}

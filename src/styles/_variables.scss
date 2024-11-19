@@ -1,0 +1,153 @@
+/** ----------- FONTS ------------ **/
+$font-family-base: 'Lato', sans-serif;
+$headings-font-family: 'Orbitron', sans-serif;
+$custom-subheadings-font-family: 'Oxygen', sans-serif;
+
+/** --------- Z-INDEXES ---------- **/
+$z-index-section-inactive: 10;
+$z-index-section-active: 20;
+$z-index-sidebar: 100;
+$z-index-nav-tabs: 200;
+$z-index-modal: 9000;
+$z-index-notifications: 9500;
+$z-index-dialogs:9800;
+$z-index-activity-spinner: 9990;
+$z-index-animated-cursor: 9995;
+$z-index-loader: 9999;
+
+/** ----------- LAYOUT ----------- **/
+$sidebar-width: 280px;
+$sidebar-shrink-width: 120px;
+$nav-tabs-height: 55px;
+$nav-tabs-chrome-offset: 20px;
+$standard-border-radius: 10px;
+$layout-blocks-spacing: 0.5rem;
+$sidebar-min-breakpoint: md;
+
+/** ----------- COLORS ----------- **/
+
+/** COLORS - overriding bootstrap colors **/
+$primary: #4CAF50;
+$secondary: #5D6D7E ;
+$dark: #1B1B1B;
+$light: #F4F4F4;
+
+/** COLORS - static **/
+$loader-background-color: #111111;
+
+:root {
+    --mobile-layout-breakpoint: md;
+}
+
+/** COLORS - dark theme palette **/
+:root {
+    --theme-main: #1B1B1B; // Charcoal Black
+    --theme-main-2: #242424;
+    --theme-main-3: #2E2E2E;
+    --theme-main-4: #383838;
+
+    --theme-secondary: #F4F4F4; // Light Gray for text and content
+    --theme-secondary-2: #D7D7D7;
+    --theme-secondary-3: #B0B0B0;
+    --theme-secondary-4: #8C8C8C;
+
+    --theme-soft: #2A2A2A; // Soft Dark Tone
+    --theme-soft-2: #333333;
+    --theme-soft-3: #3C3C3C;
+
+    // Replaced with teal and turquoise accent colors
+    --theme-highlight: #1DE9B6; // Turquoise - Fresh and vibrant yet soothing
+    --theme-highlight-2: #00B8D4; // Lighter Teal - Subtle and calm for secondary accents
+    --theme-highlight-3: #4DD0E1; // Soft Turquoise - A gentle pop for hover or soft highlights
+
+    --theme-dark: #101010; // Deep Black
+    --theme-dark-opacity: rgba(16, 16, 16, 0.9);
+    --theme-muted: #8A8A8A; // Muted Gray for less important elements
+    --theme-white: #F4F4F4; // Light color for text and backgrounds
+
+    --theme-bg-color: #1B1B1B; // Charcoal Black background
+    --theme-section-background: #242424; // Dark Section background
+    --theme-section-background-opacity: rgba(36, 36, 36, 0.9);
+    --theme-tag-color: #333333; // For tags or labels
+    --theme-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); // Subtle shadow for depth
+
+    // Navigation and selected states with new teal highlight colors
+    --theme-nav-background: #242424;
+    --theme-nav-background-disabled: #1F1F1F;
+    --theme-nav-secondary: #F4F4F4; // Light Text for nav items
+    --theme-nav-highlight: #1DE9B6; // Turquoise for active nav items
+    --theme-nav-selected: #00B8D4; // Lighter Teal for selected nav items
+
+    // Scrollbar and other small UI elements
+    --theme-scrollbar-track: #2A2A2A;
+    --theme-scrollbar-thumb: #555555; // Subtle thumb color for scrollbar
+
+    // Chart and other accent borders
+    --theme-chart-borders: #1DE9B6; // Turquoise chart borders for gentle contrast
+
+    --theme-danger: #FF5252; // Soft Red for danger or error alerts
+}
+
+
+
+
+/** COLORS - light theme palette **/
+[data-theme="light"] {
+    --theme-main: #F8F8F8; // Lighter Gray - Softer and less harsh than pure white
+    --theme-main-2: #F1F1F1; // Slightly darker for subtle contrast
+    --theme-main-3: #E8E8E8; // Soft neutral gray
+    --theme-main-4: #D6D6D6; // Mid-tone gray for dividers, borders, etc.
+
+    --theme-secondary: #4A4A4A; // Soft Dark Gray - Replacing black text with a smoother, more muted tone
+    --theme-secondary-2: #616161; // Slightly lighter gray for secondary text
+    --theme-secondary-3: #757575; // Medium gray for less important text
+    --theme-secondary-4: #9E9E9E; // Light gray for hints or muted text
+
+    --theme-soft: #E0F2F1; // Very soft teal for background elements
+    --theme-soft-2: #C1F0E7; // Minty green for fresh accents
+    --theme-soft-3: #A0D9D0; // Softer teal-green to complement the greens
+
+    --theme-dark: #FFFFFF; // White - Clear and clean background
+    --theme-dark-opacity: rgba(255, 255, 255, 0.9); // Slight opacity for overlays
+    --theme-muted: #B0B0B0; // Subdued gray for muted elements
+    --theme-white: #FFFFFF; // Pure white for backgrounds
+
+    --theme-highlight: #F4A261; // Soft Coral - Warm accent for important text (instead of green)
+    --theme-highlight-2: #FFB77E; // Lighter Coral for hover or focus states
+    --theme-highlight-3: #FFCC99; // Soft peach for subtle highlights
+
+    --theme-bg-color: #FFFFFF; // White background
+    --theme-section-background: #F1F8E9; // Soft pale green section background, gentle on the eyes
+    --theme-section-background-opacity: rgba(241, 248, 233, 0.9); // Slight opacity for sections
+    --theme-tag-color: #D1D1D1; // Light gray for tags or badges
+
+    --theme-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); // Subtle box shadow for depth
+    --theme-nav-background: #F1F8E9; // Light, subtle green for navigation bar background
+    --theme-nav-background-disabled: #C8E6C9; // Very light mint green for disabled nav items
+    --theme-nav-secondary: #4A4A4A; // Soft Dark Gray for nav text
+    --theme-nav-highlight: #F4A261; // Coral for active nav item (instead of green)
+    --theme-nav-selected: #FFB77E; // Softer coral for selected nav items
+
+    --theme-scrollbar-track: #E0E0E0; // Light gray for scrollbar track
+    --theme-scrollbar-thumb: #FFCC99; // Soft peach for the scrollbar thumb
+
+    --theme-chart-borders: #F4A261; // Coral for chart lines/borders
+
+    --theme-danger: #FF6F61; // Soft Coral Red - A more vibrant and pleasant red for danger
+}
+
+
+
+
+
+.bg-dark {
+    background-image: url('/images/css/bg-dark.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-green {
+    background-image: url('/images/css/bg-green.png');
+    background-size: cover;
+    background-position: center;
+}
