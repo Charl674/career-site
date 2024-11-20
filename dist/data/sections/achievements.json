@@ -1,38 +1,36 @@
 {
     "locales": {
-        "en": {
-            "title": "Awards",
-            "title_menu": "Certifications",
-            "title_long_prefix": "Here are my",
-            "title_long": "**Cert**ifications"
-        },
+                "en": {
+                "title": "Certifications",
+                "title_menu": "Certifications",
+                "title_long_prefix": "Here are my",
+                "title_long": "**Certifications**"
+            },
+            "es": {
+                "title": "Certificaciones",
+                "title_menu": "Certificaciones",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "**Certificaciones**"
+            },
+            "fr": {
+                "title": "Certifications",
+                "title_menu": "Certifications",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes **Certifications**"
+            },
+            "gh": {
+                "title": "Nwoma Ntɔn",
+                "title_menu": "Nwoma Ntɔn",
+                "title_long_prefix": "Ɛwɔ ha",
+                "title_long": "Me **Nwoma Ntɔn**"
+            },
+            "nl": {
+                "title": "Certificeringen",
+                "title_menu": "Certificeringen",
+                "title_long_prefix": "Hier zijn mijn",
+                "title_long": "**Certificeringen**"
+            }
 
-        "es": {
-            "title": "Logros",
-            "title_menu": "Logros",
-            "title_long_prefix": "Aquí están mis",
-            "title_long": "**Logros** Profesionales"
-        },
-
-        "fr": {
-            "title": "Réalis",
-            "title_menu": "Réalisations",
-            "title_long_prefix": "Voici",
-            "title_long": "Mes **Réalisations**"
-        },
-
-       "gh": {
-            "title": "Nwoma Ntɔn",
-            "title_menu": "Nwoma Ntɔn",
-            "title_long_prefix": "Ɛwɔ ha",
-            "title_long": "Me **Nwoma Ntɔn**"
-        },
-        "nl": {
-            "title": "Prestaties",
-            "title_menu": "Prestaties",
-            "title_long_prefix": "Hier zijn mijn",
-            "title_long": "**Certificeringen**"
-        }
     },
 
     "articles": [
