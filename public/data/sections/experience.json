@@ -214,7 +214,51 @@
 
                         
                     }
-                }
+                },
+                {
+                    "icon": {
+                      "img": "images/pictures/hubtel.png",
+                      "fa": "",
+                      "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                      "start": "03/01/2025",
+                      "end": "now"
+                    },
+                    "locales": {
+                      "en": {
+                        "title": "**Lead Data Analyst**",
+                        "info": "Hubtel Limited",
+                        "text": "<p>• Spearheading the MyCredit Score project in partnership with Hubtel and financial institutions, leading a cross-functional team of data analysts and data review officers to deliver accurate, real-time credit scoring solutions.</p>\n\n<p>• Automated data flows with NiFi, integrating bank transaction data into AWS S3 for seamless ingestion.</p>\n\n<p>• Optimized ETL workflows with AWS Glue, reducing processing time and improving data accuracy.</p>\n\n<p>• Built and maintained data pipelines from S3 to analytics platforms, ensuring timely credit scoring data delivery.</p>\n\n<p>• Conducted regular performance reviews, mentorship, and training sessions to elevate team capabilities and ensure adherence to best practices in data governance and analytics.</p>",
+                        "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Credit Scoring"]
+                      },
+                      "es": {
+                        "title": "**Analista Principal de Datos**",
+                        "info": "Hubtel Limited",
+                        "text": "<p>• Liderando el proyecto MyCredit Score en asociación con Hubtel e instituciones financieras, encabezando un equipo multifuncional de analistas de datos y oficiales de revisión para ofrecer soluciones precisas de puntaje crediticio en tiempo real.</p>\n\n<p>• Automatización de flujos de datos con NiFi, integrando datos bancarios en AWS S3 para una ingesta fluida.</p>\n\n<p>• Optimización de flujos ETL con AWS Glue, reduciendo el tiempo de procesamiento y mejorando la precisión de los datos.</p>\n\n<p>• Construcción y mantenimiento de canalizaciones de datos desde S3 hasta plataformas analíticas, garantizando una entrega oportuna de datos de puntaje crediticio.</p>\n\n<p>• Realización de revisiones de rendimiento, mentoría y capacitación para mejorar las capacidades del equipo y garantizar buenas prácticas de gobernanza y análisis de datos.</p>",
+                        "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Puntaje Crediticio"]
+                      },
+                      "fr": {
+                        "title": "**Analyste Principal de Données**",
+                        "info": "Hubtel Limited",
+                        "text": "<p>• Direction du projet MyCredit Score en partenariat avec Hubtel et les institutions financières, en dirigeant une équipe interfonctionnelle pour fournir des solutions de notation de crédit précises et en temps réel.</p>\n\n<p>• Automatisation des flux de données avec NiFi, intégrant les données bancaires dans AWS S3 pour une ingestion fluide.</p>\n\n<p>• Optimisation des flux ETL avec AWS Glue, réduisant le temps de traitement et améliorant la précision des données.</p>\n\n<p>• Création et maintenance de pipelines de données de S3 vers des plateformes analytiques, garantissant une livraison rapide des données de notation de crédit.</p>\n\n<p>• Réalisé des évaluations de performance, des mentorats et des formations pour améliorer les capacités de l'équipe et respecter les meilleures pratiques en matière de gouvernance et d'analyse des données.</p>",
+                        "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Notation de Crédit"]
+                      },
+                      "nl": {
+                        "title": "**Leidend Data-Analist**",
+                        "info": "Hubtel Limited",
+                        "text": "<p>• Leider van het MyCredit Score-project in samenwerking met Hubtel en financiële instellingen, waarbij een multifunctioneel team van data-analisten en beoordelaars wordt aangestuurd voor realtime kredietscoreoplossingen.</p>\n\n<p>• Geautomatiseerde gegevensstromen met NiFi, waarbij banktransactiedata worden geïntegreerd in AWS S3 voor naadloze verwerking.</p>\n\n<p>• Geoptimaliseerde ETL-processen met AWS Glue, wat leidt tot snellere verwerkingstijden en hogere datanauwkeurigheid.</p>\n\n<p>• Opbouw en onderhoud van datapijplijnen van S3 naar analysetools, wat zorgt voor tijdige levering van kredietscoredata.</p>\n\n<p>• Voerde prestatiebeoordelingen, mentorprogramma's en trainingen uit om het team te versterken en naleving van best practices te waarborgen.</p>",
+                        "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Kredietscore"]
+                      },
+                      "gh": {
+                        "title": "**Ɔpanin Data Analyst**",
+                        "info": "Hubtel Limited",
+                        "text": "<p>• M’adi MyCredit Score project no anim wɔ Hubtel ne sika kurow mu nnɛmma ho mmoa mu, ma m’akyerɛw data analysts ne data review officers kɔ yɛ adwuma a ɛma yɛnya accurate ne realtime credit scoring solutions.</p>\n\n<p>• Mede NiFi yɛɛ data flow automation, de bank transaction data kɔ AWS S3 mu ma ɛbɛyɛ dɛ wɔ betumi afa ho a ɛyɛ mmerɛw.</p>\n\n<p>• M’abɔ ho ban mu ama ETL workflows wɔ AWS Glue so, a ɛma adwuma no yɛ ntɛm na data no yɛ nokware.</p>\n\n<p>• M’abɔ na mesiesieɛ data pipelines fi S3 kɔ analytics platforms so, ma credit scoring data no du hɔ ntɛm.</p>\n\n<p>• Meyɛ performance reviews, kyɛrekyerɛ ne training ma me team no, na yɛde best practices di data governance ne analytics mu.</p>",
+                        "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Credit Scoring"]
+                      }
+                    }
+                  }
+                  
                 
             ]
         }

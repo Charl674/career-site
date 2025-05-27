@@ -179,7 +179,44 @@
                         }
 
                     }
-                }
+                },
+
+                {
+                    "icon": {
+                      "img": "images/pictures/Udemy.png",
+                      "fa": "",
+                      "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                      "start": "03/01/2021",
+                      "end": null
+                    },
+                    "links": [
+                      {
+                        "string": "see_certification",
+                        "href": "https://www.udemy.com/certificate/UC-e727b214-c355-4327-bc07-ed4654af61a8/"
+                      }
+                    ],
+                    "locales": {
+                      "en": {
+                        "title": "**Apache NiFi – Beginners to Experts**",
+                        "text": "Mastered building scalable and automated data pipelines using Apache NiFi."
+                      },
+                      "es": {
+                        "text": "Dominé la creación de pipelines de datos escalables y automatizados con Apache NiFi."
+                      },
+                      "fr": {
+                        "text": "Maîtrise de la création de pipelines de données automatisés et évolutifs avec Apache NiFi."
+                      },
+                      "nl": {
+                        "text": "Beheerst het bouwen van schaalbare en geautomatiseerde datapijplijnen met Apache NiFi."
+                      },
+                      "gh": {
+                        "text": "M’akɔ akyirikyiri wɔ Apache NiFi so na mayɛ data pipelines a ɛyɛ den na ɛyɛ ɔtoɔtu."
+                      }
+                    }
+                  }
+                  
                 
             ]
         }
