@@ -69,9 +69,15 @@
         },
 
         {
+            "name": "German",
+            "id": "ge",
+            "flagUrl": "images/flags/german.png"
+        },
+        
+        {
             "name": "Dutch",
             "id": "nl",
-            "flagUrl": "images/flags/dutch.png"
+            "flagUrl": "images/flags/nl.png"
         },
 
         {

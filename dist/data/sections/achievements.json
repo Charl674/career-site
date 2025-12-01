@@ -1,35 +1,42 @@
 {
     "locales": {
-                "en": {
-                "title": "Certifications",
-                "title_menu": "Certifications",
-                "title_long_prefix": "Here are my",
-                "title_long": "**Certifications**"
+            "en": {
+              "title": "Certifications",
+              "title_menu": "Certifications",
+              "title_long_prefix": "Here are my",
+              "title_long": "**Certifications**"
             },
             "es": {
-                "title": "Certificaciones",
-                "title_menu": "Certificaciones",
-                "title_long_prefix": "Aquí están mis",
-                "title_long": "**Certificaciones**"
+              "title": "Certificaciones",
+              "title_menu": "Certificaciones",
+              "title_long_prefix": "Aquí están mis",
+              "title_long": "**Certificaciones**"
             },
             "fr": {
-                "title": "Certifications",
-                "title_menu": "Certifications",
-                "title_long_prefix": "Voici",
-                "title_long": "Mes **Certifications**"
-            },
-            "gh": {
-                "title": "Nwoma Ntɔn",
-                "title_menu": "Nwoma Ntɔn",
-                "title_long_prefix": "Ɛwɔ ha",
-                "title_long": "Me **Nwoma Ntɔn**"
+              "title": "Certifications",
+              "title_menu": "Certifications",
+              "title_long_prefix": "Voici",
+              "title_long": "Mes **Certifications**"
             },
             "nl": {
-                "title": "Certificeringen",
-                "title_menu": "Certificeringen",
-                "title_long_prefix": "Hier zijn mijn",
-                "title_long": "**Certificeringen**"
+              "title": "Certificeringen",
+              "title_menu": "Certificeringen",
+              "title_long_prefix": "Hier zijn mijn",
+              "title_long": "**Certificeringen**"
+            },
+            "gh": {
+              "title": "Nwoma Ntɔn",
+              "title_menu": "Nwoma Ntɔn",
+              "title_long_prefix": "Ɛwɔ ha",
+              "title_long": "Me **Nwoma Ntɔn**"
+            },
+            "ge": {
+              "title": "Zertifizierungen",
+              "title_menu": "Zertifizierungen",
+              "title_long_prefix": "Hier sind meine",
+              "title_long": "**Zertifizierungen**"
             }
+          
 
     },
 
@@ -42,10 +49,54 @@
                 "en": { "title": "Certs" },
                 "es": { "title": "Certs" },
                 "fr": { "title": "Certifications" },
-                "ko": { "title": "인증서" }
+                "nl": { "title": "Certs" },
+                "gh": { "title": "Nwoma Ntɔn" },
+                "ge": { "title": "Zertifikate" }
             },
 
             "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/365.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    
+                               },
+                    "dates": {
+                        "start": "11/21/2025",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.credential.net/cf3b03c9-dcab-4663-8261-4e9542062c7d" }
+                    ],
+                    "locales": {
+                            "en": {
+                              "title": "**365 Data Science**",
+                              "text": "The Data Science Course"
+                            },
+                            "es": {
+                              "title": "**365 Data Science**",
+                              "text": "El Curso de Ciencia de Datos"
+                            },
+                            "fr": {
+                              "title": "**365 Data Science**",
+                              "text": "Le Cours de Science des Données"
+                            },
+                            "nl": {
+                              "title": "**365 Data Science**",
+                              "text": "De Data Science Cursus"
+                            },
+                            "gh": {
+                              "title": "**365 Data Science**",
+                              "text": "Data Science Adesua"
+                            },
+                            "ge": {
+                              "title": "**365 Data Science**",
+                              "text": "Der Data Science Kurs"
+                            }
+                        
+                    }
+                },
                 {
                     "icon": {
                         "img": "images/pictures/ICSI.png",
@@ -179,7 +230,44 @@
                         }
 
                     }
-                }
+                },
+
+                {
+                    "icon": {
+                      "img": "images/pictures/Udemy.png",
+                      "fa": "",
+                      "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                      "start": "03/01/2021",
+                      "end": null
+                    },
+                    "links": [
+                      {
+                        "string": "see_certification",
+                        "href": "https://www.udemy.com/certificate/UC-e727b214-c355-4327-bc07-ed4654af61a8/"
+                      }
+                    ],
+                    "locales": {
+                      "en": {
+                        "title": "**Apache NiFi – Beginners to Experts**",
+                        "text": "Mastered building scalable and automated data pipelines using Apache NiFi."
+                      },
+                      "es": {
+                        "text": "Dominé la creación de pipelines de datos escalables y automatizados con Apache NiFi."
+                      },
+                      "fr": {
+                        "text": "Maîtrise de la création de pipelines de données automatisés et évolutifs avec Apache NiFi."
+                      },
+                      "nl": {
+                        "text": "Beheerst het bouwen van schaalbare en geautomatiseerde datapijplijnen met Apache NiFi."
+                      },
+                      "gh": {
+                        "text": "M’akɔ akyirikyiri wɔ Apache NiFi so na mayɛ data pipelines a ɛyɛ den na ɛyɛ ɔtoɔtu."
+                      }
+                    }
+                  }
+                  
                 
             ]
         }

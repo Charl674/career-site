@@ -56,11 +56,13 @@
         "id": "home",
         "faIcon": "fa-solid fa-home",
         "locales": {
-            "en": {"title": "Home"},
-            "es": {"title": "Inicio"},
-            "fr": {"title": "Accueil"},
-            "nl": {"title": "Home"},
-            "gh": {"title": "Fie"}
+                "en": { "title": "Home" },
+                "es": { "title": "Inicio" },
+                "fr": { "title": "Accueil" },
+                "nl": { "title": "Home" },
+                "gh": { "title": "Fie" },
+                "ge": { "title": "Startseite" }
+            
         }
     },
 
@@ -68,11 +70,12 @@
         "id": "background",
         "faIcon": "fa-solid fa-clock",
         "locales": {
-            "en": {"title": "History"},
-            "es": {"title": "Trayectoria"},
-            "fr": {"title": "Parcours"},
-            "nl": {"title": "Geschiedenis"},
-            "gh": {"title": "Nsɛm a atwam"}
+                "en": { "title": "History" },
+                "es": { "title": "Historia" },
+                "fr": { "title": "Histoire" },
+                "nl": { "title": "Geschiedenis" },
+                "gh": { "title": "Abakɔsɛm" },
+                "ge": { "title": "Geschichte" }            
         }
     },
 
@@ -80,24 +83,28 @@
         "id": "showcase",
         "faIcon": "fa-solid fa-images",
         "locales": {
-            "en": {"title": "Showcase"},
-            "es": {"title": "Vitrina"},
-            "fr": {"title": "Vitrine"},
-            "nl": {"title": "Showcase"},
-            "gh": {"title": "Ahwehwɛde"}
+            "en": { "title": "Showcase" },
+            "es": { "title": "Vitrina" },
+            "fr": { "title": "Vitrine" },
+            "nl": { "title": "Etalage" },
+            "gh": { "title": "Adwini" },
+            "ge": { "title": "Schaufenster" }
         }
+        
     },
 
     {
         "id": "more",
         "faIcon": "fa-solid fa-plus",
         "locales": {
-            "en": {"title": "More"},
-            "es": {"title": "Más"},
-            "fr": {"title": "Plus"},
-            "nl": {"title": "Meer"},
-            "gh": {"title": "Bio"}
+            "en": { "title": "More" },
+            "es": { "title": "Más" },
+            "fr": { "title": "Plus" },
+            "nl": { "title": "Meer" },
+            "gh": { "title": "Bio" },
+            "ge": { "title": "Mehr" }
         }
+        
     }
 ]
 

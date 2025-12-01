@@ -1,30 +1,36 @@
 {
     "locales": {
-        "en": {
-            "title": "Contact",
-            "title_long_prefix": "Don't hesitate to",
-            "title_long": "**Contact** Me"
-        },
-        "es": {
-            "title": "Contacto",
-            "title_long_prefix": "No dudes en",
-            "title_long": "**Contácta**me"
-        },
-        "fr": {
-            "title": "Contact",
-            "title_long_prefix": "N'hésitez pas à",
-            "title_long": "Me **Contacter**"
-        },
-        "nl": {
-            "title": "Contact",
-            "title_long_prefix": "Aarzel niet om",
-            "title_long": "**Contact** met mij op te nemen"
-        },
-        "gh": {
-            "title": "Nkɔmmɔ",
-            "title_long_prefix": "Nsuro sɛ wopɛ sɛ wokɔmmɔ",
-            "title_long": "Fa yɛ **Nkɔmmɔ**"
-        }
+            "en": {
+              "title": "Contact",
+              "title_long_prefix": "Don't hesitate to",
+              "title_long": "**Contact** Me"
+            },
+            "es": {
+              "title": "Contacto",
+              "title_long_prefix": "No dudes en",
+              "title_long": "**Contáctame**"
+            },
+            "fr": {
+              "title": "Contact",
+              "title_long_prefix": "N'hésitez pas à",
+              "title_long": "Me **Contacter**"
+            },
+            "nl": {
+              "title": "Contact",
+              "title_long_prefix": "Aarzel niet om",
+              "title_long": "**Contact** met mij op te nemen"
+            },
+            "gh": {
+              "title": "Nkɔmmɔ",
+              "title_long_prefix": "Nsuro sɛ wopɛ sɛ wokɔmmɔ",
+              "title_long": "Fa yɛ **Nkɔmmɔ**"
+            },
+            "ge": {
+              "title": "Kontakt",
+              "title_long_prefix": "Zögern Sie nicht",
+              "title_long": "Mich zu **Kontaktieren**"
+            }
+          
     },
     "articles": [
         {
@@ -36,11 +42,12 @@
                 "fields": ["name", "email", "message"]
             },
             "locales": {
-                "en": {"title": "Send me a **message**"},
-                "es": {"title": "Envíame un **mensaje**"},
-                "fr": {"title": "Envoyez-moi un **message**"},
-                "nl": {"title": "Stuur mij een **bericht**"},
-                "gh": {"title": "Fa me **asɛm**"}
+                "en": { "title": "Send me a **message**" },
+                "es": { "title": "Envíame un **mensaje**" },
+                "fr": { "title": "Envoyez-moi un **message**" },
+                "nl": { "title": "Stuur me een **bericht**" },
+                "gh": { "title": "Fa me **krataa**" },
+                "ge": { "title": "Sende mir eine **Nachricht**" }
             },
             "items": null
         },
@@ -51,11 +58,12 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Or if you **prefer**..."},
-                "es": {"title": "O si **prefieres**..."},
-                "fr": {"title": "Ou si vous **préférez**..."},
-                "nl": {"title": "Of als je **liever**..."},
-                "gh": {"title": "Anaa sɛ wo **pɛ**..."}
+                    "en": { "title": "Or if you **prefer**..." },
+                    "es": { "title": "O si lo **prefieres**..." },
+                    "fr": { "title": "Ou si vous **préférez**..." },
+                    "nl": { "title": "Of als je **liever**..." },
+                    "gh": { "title": "Ana sɛ wopɛ a..." },
+                    "ge": { "title": "Oder wenn Sie **lieber**..." }
             },
             "items": [
                 {
@@ -69,11 +77,12 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "nl": {"title": "Telefoon"},
-                        "gh": {"title": "Fɔn"}
+                            "en": { "title": "Phone" },
+                            "es": { "title": "Teléfono" },
+                            "fr": { "title": "Téléphone" },
+                            "nl": { "title": "Telefoon" },
+                            "gh": { "title": "Fɔn" },
+                            "ge": { "title": "Telefon" }
                     }
                 },
                 {
@@ -87,11 +96,12 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "E-mail"},
-                        "es": {"title": "Correo electrónico"},
-                        "fr": {"title": "E-mail"},
-                        "nl": {"title": "E-mail"},
-                        "gh": {"title": "Email"}
+                        "en": { "title": "E-mail" },
+                        "es": { "title": "Correo" },
+                        "fr": { "title": "E-mail" },
+                        "nl": { "title": "E-mail" },
+                        "gh": { "title": "Email" },
+                        "ge": { "title": "E-Mail" }
                     }
                 },
                 {
@@ -109,7 +119,9 @@
                         "es": {"title": "LinkedIn"},
                         "fr": {"title": "LinkedIn"},
                         "nl": {"title": "LinkedIn"},
-                        "gh": {"title": "LinkedIn"}
+                        "gh": {"title": "LinkedIn"},
+                        "ge": {"title": "LinkedIn"}
+
                     }
                 },
                 {
@@ -127,7 +139,8 @@
                         "es": {"title": "X"},
                         "fr": {"title": "X"},
                         "nl": {"title": "X"},
-                        "gh": {"title": "X"}
+                        "gh": {"title": "X"},
+                        "ge": {"title": "X"}
                     }
                 }
             ]

@@ -1,30 +1,35 @@
 {
     "locales": {
-        "en": {
-            "title": "Experience",
-            "title_long_prefix": "Summary of my",
-            "title_long": "**Work** Experience"
-        },
-        "es": {
-            "title": "Experiencia",
-            "title_long_prefix": "Resumen de mi",
-            "title_long": "Experiencia **Laboral**"
-        },
-        "fr": {
-            "title": "Expérience",
-            "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
-        },
-        "nl": {
-            "title": "Ervaring",
-            "title_long_prefix": "Samenvatting van mijn",
-            "title_long": "**Werk** Ervaring"
-        },
-        "gh": {
-            "title": "Nnaaseɛ",
-            "title_long_prefix": "Me",
-            "title_long": "**Adwuma** Nnaaseɛ"
-        }
+            "en": {
+              "title": "Experience",
+              "title_long_prefix": "Summary of my",
+              "title_long": "**Work** Experience"
+            },
+            "es": {
+              "title": "Experiencia",
+              "title_long_prefix": "Resumen de mi",
+              "title_long": "Experiencia **Laboral**"
+            },
+            "fr": {
+              "title": "Expérience",
+              "title_long_prefix": "Résumé de mon",
+              "title_long": "Expérience **Professionnelle**"
+            },
+            "nl": {
+              "title": "Ervaring",
+              "title_long_prefix": "Overzicht van mijn",
+              "title_long": "**Werk** Ervaring"
+            },
+            "gh": {
+              "title": "Adwumayɛ",
+              "title_long_prefix": "Me Adwumayɛ",
+              "title_long": "**Adwuma** Nsɛm"
+            },
+            "ge": {
+              "title": "Erfahrung",
+              "title_long_prefix": "Zusammenfassung meiner",
+              "title_long": "**Berufserfahrung**"
+            }          
     },
 
     "articles": [
@@ -46,39 +51,43 @@
                         "end": "06/01/2019"
                     },
                     "locales": {
-                     "en": {
-                            "title": "**Business** Analyst",
-                            "info": "Geemens Enterprise",
-                            "text": "<p>• Developed data-driven insights by addressing complex analytical challenges through statistical modeling and data visualization tools.</p> \n\n<p>• Partnered with stakeholders, including data architects and engineers, to define requirements and deliver actionable solutions.</p> \n\n<p>• Prepared comprehensive reports and presentations to support strategic decision-making, including risk analysis and mitigation strategies.</p>",
-                            "tags": ["Python", "MySQL", "Excel"]
-                        },
-                        "es": {
-                            "title": "**Analista** de Negocios",
-                            "info": "Geemens Enterprise",
-                            "text": "<p>• Desarrollé información basada en datos resolviendo problemas analíticos complejos utilizando modelos estadísticos y herramientas de visualización de datos.</p> \n\n<p>• Colaboré con las partes interesadas, incluidos los arquitectos de datos y los ingenieros, para definir los requisitos y entregar soluciones viables.</p> \n\n<p>• Preparé informes detallados y presentaciones para respaldar decisiones estratégicas, incluyendo el análisis de riesgos y la planificación de estrategias de mitigación.</p>",
-                            "tags": ["Python", "MySQL", "Excel"]
-                        },
-                        "fr": {
-                            "title": "**Analyste** d'Affaires",
-                            "info": "Geemens Enterprise",
-                            "text": "<p>• Développé des informations basées sur les données en résolvant des problèmes analytiques complexes à l'aide de modèles statistiques et d'outils de visualisation des données.</p> \n\n<p>• Collaboré avec les parties prenantes, y compris les architectes de données et les ingénieurs, pour définir les exigences et fournir des solutions exploitables.</p> \n\n<p>• Préparé des rapports détaillés et des présentations pour soutenir les décisions stratégiques, y compris l'analyse des risques et la planification des mesures d'atténuation.</p>",
-                            "tags": ["Python", "MySQL", "Excel"]
-                        },
-                        "nl": {
-                            "title": "**Business** Analist",
-                            "info": "Geemens Enterprise",
-                            "text": "<p>• Ontwikkelde op data gebaseerde inzichten door complexe analytische uitdagingen aan te pakken met statistische modellen en gegevensvisualisatietools.</p> \n\n<p>• Werkte samen met belanghebbenden, waaronder data-architecten en ingenieurs, om vereisten te definiëren en uitvoerbare oplossingen te leveren.</p> \n\n<p>• Bereidde uitgebreide rapporten en presentaties voor ter ondersteuning van strategische besluitvorming, inclusief risicanalyse en mitigatiestrategieën.</p>",
-                            "tags": ["Python", "MySQL", "Excel"]
-                        },
-                        "gh": {
-                            "title": "**Business** Analyst",
-                            "info": "Geemens Enterprise",
-                            "text": "<p>• Ɔde data a ɛda ho adi no yɛɛ nhwehwɛmu de twetwe ɛho nsɛm mu fi ho a, ɔde nsɛntitiriw no ne data ho nhwehwɛmu kɔda ho.</p> \n\n<p>• Ɔbɔɔ nkɔmmɔ ne nnwumafoɔ, hohorofoɔ ne yɛn a wɔwɔ ne nkyerɛaseɛ no ne nkɔsoɔ mu.</p> \n\n<p>• Ɔde nkrataa a ɛwɔ mu ne nsɛm a ɛsɛ sɛ yɛde yɛ adwuma kɔda ho mu sɛnea ɛbɛma adwene a ɛda ho adwuma yɛ wɔn yɛ ho nhyehyɛe no mu.</p>",
-                            "tags": ["Python", "MySQL", "Excel"]
-                        }
-
-                    }
-                },
+                            "en": {
+                              "title": "**Business** Intelligence Analyst",
+                              "info": "Geemens Enterprise",
+                              "text": "<p>• Developed data-driven insights by addressing complex analytical challenges through statistical modeling and data visualization tools.</p> \n\n<p>• Partnered with stakeholders, including data architects and engineers, to define requirements and deliver actionable solutions.</p> \n\n<p>• Prepared comprehensive reports and presentations to support strategic decision-making, including risk analysis and mitigation strategies.</p>",
+                              "tags": ["Python", "MySQL", "Excel", "Tableau"]
+                            },
+                            "es": {
+                              "title": "**Analista de Inteligencia de Negocios**",
+                              "info": "Geemens Enterprise",
+                              "text": "<p>• Desarrolló conocimientos basados en datos abordando desafíos analíticos complejos mediante modelos estadísticos y herramientas de visualización de datos.</p> \n\n<p>• Colaboró con stakeholders, incluidos arquitectos de datos e ingenieros, para definir requisitos y ofrecer soluciones accionables.</p> \n\n<p>• Preparó informes y presentaciones completas para apoyar la toma de decisiones estratégicas, incluyendo análisis de riesgos y estrategias de mitigación.</p>",
+                              "tags": ["Python", "MySQL", "Excel", "Tableau"]
+                            },
+                            "fr": {
+                              "title": "**Analyste** en Intelligence d'Affaires",
+                              "info": "Geemens Enterprise",
+                              "text": "<p>• Développé des insights basés sur les données en relevant des défis analytiques complexes grâce à la modélisation statistique et aux outils de visualisation de données.</p> \n\n<p>• Collaboré avec les parties prenantes, y compris les architectes et ingénieurs de données, pour définir les exigences et fournir des solutions exploitables.</p> \n\n<p>• Préparé des rapports et présentations complets pour soutenir la prise de décisions stratégiques, y compris l'analyse des risques et les stratégies d'atténuation.</p>",
+                              "tags": ["Python", "MySQL", "Excel", "Tableau"]
+                            },
+                            "nl": {
+                              "title": "**Business** Intelligence Analist",
+                              "info": "Geemens Enterprise",
+                              "text": "<p>• Ontwikkelde data-gedreven inzichten door complexe analytische uitdagingen aan te pakken met statistische modellering en datavisualisatie-tools.</p> \n\n<p>• Samenwerking met stakeholders, waaronder data-architecten en engineers, om vereisten te definiëren en uitvoerbare oplossingen te leveren.</p> \n\n<p>• Bereidde uitgebreide rapporten en presentaties voor ter ondersteuning van strategische besluitvorming, inclusief risicoanalyse en mitigatiestrategieën.</p>",
+                              "tags": ["Python", "MySQL", "Excel", "Tableau"]
+                            },
+                            "gh": {
+                              "title": "**Business** Intelligence Analyst",
+                              "info": "Geemens Enterprise",
+                              "text": "<p>• Meyɛ adwuma a ɛma data so nsɛm ba mu wɔ analytical challenges mu de statistical modeling ne data visualization tools yɛ adwuma.</p> \n\n<p>• Me ne stakeholders, a wɔka ho data architects ne engineers, yɛ adwuma de define requirements ne ma actionable solutions.</p> \n\n<p>• Mede comprehensive reports ne presentations bɔɔ adwuma a ɛboa strategic decision-making, ka ho risk analysis ne mitigation strategies.</p>",
+                              "tags": ["Python", "MySQL", "Excel", "Tableau"]
+                            },
+                            "ge": {
+                              "title": "**Business** Intelligence Analyst",
+                              "info": "Geemens Enterprise",
+                              "text": "<p>• Entwickelte datengestützte Erkenntnisse durch die Lösung komplexer analytischer Herausforderungen mittels statistischer Modellierung und Datenvisualisierungstools.</p> \n\n<p>• Zusammenarbeit mit Stakeholdern, einschließlich Datenarchitekten und Ingenieuren, zur Definition von Anforderungen und Bereitstellung umsetzbarer Lösungen.</p> \n\n<p>• Erstellung umfassender Berichte und Präsentationen zur Unterstützung strategischer Entscheidungen, einschließlich Risikoanalyse und Minderungsstrategien.</p>",
+                              "tags": ["Python", "MySQL", "Excel", "Tableau"]
+                            }                          
+                }},
                 {
                     "icon": {
                         "img": "images/pictures/amalitech.png",
@@ -90,36 +99,43 @@
                         "end": "05/01/2022"
                     },
                     "locales": {
-                       "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "AmaliTech",
-                            "text": "<p>• Collaborated with customers to define requirements, troubleshoot issues, and design and implement new engineering applications.</p> \n\n<p>• Delivered comprehensive documentation on design decisions, assumptions, code modules, and performance metrics.</p> \n\n<p>• Worked closely with fellow engineers to brainstorm solutions, debug problems, and review code for quality.</p>",
-                            "tags": ["JavaScript", "React", "HTML"]
-                        },
-                        "es": {
-                            "title": "Ingeniero **Full-Stack**",
-                            "info": "AmaliTech",
-                            "text": "<p>• Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades.</p> \n\n<p>• Optimicé la experiencia del usuario utilizando tecnologías de frontend y backend.</p> \n\n<p>• Aseguré un funcionamiento sin problemas del sistema.</p>",
-                            "tags": ["JavaScript", "React", "HTML"]
-                        },
-                        "fr": {
-                            "title": "Ingénieur **Full-Stack**",
-                            "info": "AmaliTech",
-                            "text": "<p>• J'ai contribué à l'amélioration du site Web de Coursera en ajoutant de nouvelles fonctionnalités.</p> \n\n<p>• Optimisé l'expérience utilisateur en utilisant des technologies frontend et backend.</p> \n\n<p>• Garanti un fonctionnement fluide du système.</p>",
-                            "tags": ["JavaScript", "React", "HTML"]
-                        },
-                        "nl": {
-                            "title": "**Full-Stack** Ingenieur",
-                            "info": "AmaliTech",
-                            "text": "<p>• Werkte samen met klanten om vereisten te definiëren, problemen op te lossen, en nieuwe engineeringtoepassingen te ontwerpen en implementeren.</p> \n\n<p>• Leverde uitgebreide documentatie over ontwerpbeslissingen, veronderstellingen, codemodules en prestatiemetingen.</p> \n\n<p>• Werkte nauw samen met andere ingenieurs om oplossingen te brainstormen, problemen op te lossen en de code op kwaliteit te beoordelen.</p>",
-                            "tags": ["JavaScript", "React", "HTML"]
-                        },
-                        "gh": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "AmaliTech",
-                            "text": "<p>• Yɛde wɔn ho bɔɔ nkɔmmɔ na wodi nsɛm aseɛ na yɛ ho kɔda ho asɛm a yɛyɛɛ.</p> \n\n<p>• Nkrataa a ɛwɔ mu ne anka ho nkɔsoɔ no na ɛsɔre nsɛm ne nkɔsoɔ bɛyɛe.</p> \n\n<p>• Mesan boaa ne nyinaa ma teams no mu wɔn neɛ yɛda no ne CI/CD pipelines mu sɛnea ɛbɛma system no ayɛ den na yɛresɔ nsɛm no ho nkɔsoɔ wɔ bere a ɛhɔ nhia.</p>",
-                            "tags": ["JavaScript", "React", "HTML"]
-                        }
+                            "en": {
+                              "title": "**Full-Stack** Engineer",
+                              "info": "AmaliTech",
+                              "text": "<p>• Collaborated with customers to define requirements, troubleshoot issues, and design and implement new engineering applications.</p> \n\n<p>• Delivered comprehensive documentation on design decisions, assumptions, code modules, and performance metrics.</p> \n\n<p>• Worked closely with fellow engineers to brainstorm solutions, debug problems, and review code for quality.</p>",
+                              "tags": ["JavaScript", "React", "HTML"]
+                            },
+                            "es": {
+                              "title": "**Ingeniero** Full-Stack",
+                              "info": "AmaliTech",
+                              "text": "<p>• Colaboró con clientes para definir requisitos, resolver problemas y diseñar e implementar nuevas aplicaciones de ingeniería.</p> \n\n<p>• Entregó documentación completa sobre decisiones de diseño, supuestos, módulos de código y métricas de rendimiento.</p> \n\n<p>• Trabajó estrechamente con otros ingenieros para generar ideas, depurar problemas y revisar código para garantizar calidad.</p>",
+                              "tags": ["JavaScript", "React", "HTML"]
+                            },
+                            "fr": {
+                              "title": "**Ingénieur** Full-Stack",
+                              "info": "AmaliTech",
+                              "text": "<p>• Collaboré avec les clients pour définir les exigences, résoudre les problèmes et concevoir et mettre en œuvre de nouvelles applications d’ingénierie.</p> \n\n<p>• Fournit une documentation complète sur les décisions de conception, les hypothèses, les modules de code et les indicateurs de performance.</p> \n\n<p>• Travaillé en étroite collaboration avec d’autres ingénieurs pour brainstormer des solutions, déboguer les problèmes et réviser le code pour garantir la qualité.</p>",
+                              "tags": ["JavaScript", "React", "HTML"]
+                            },
+                            "nl": {
+                              "title": "**Full-Stack** Engineer",
+                              "info": "AmaliTech",
+                              "text": "<p>• Samenwerking met klanten om vereisten te definiëren, problemen op te lossen en nieuwe engineering-applicaties te ontwerpen en implementeren.</p> \n\n<p>• Levering van uitgebreide documentatie over ontwerpbeslissingen, aannames, code-modules en prestatiestatistieken.</p> \n\n<p>• Nauw samengewerkt met collega-ingenieurs om oplossingen te bedenken, problemen te debuggen en code te controleren op kwaliteit.</p>",
+                              "tags": ["JavaScript", "React", "HTML"]
+                            },
+                            "gh": {
+                              "title": "**Full-Stack** Engineer",
+                              "info": "AmaliTech",
+                              "text": "<p>• Meyɛ adwuma ne customers de define requirements, troubleshoot issues, na design ne implement engineering applications foforɔ.</p> \n\n<p>• Mede comprehensive documentation de design decisions, assumptions, code modules, ne performance metrics kyerɛɛ.</p> \n\n<p>• Meyɛ adwuma pɛɛ ne engineers foforɔ de brainstorm solutions, debug problems, ne review code sɛ ɛyɛ quality.</p>",
+                              "tags": ["JavaScript", "React", "HTML"]
+                            },
+                            "ge": {
+                              "title": "**Full-Stack** Engineer",
+                              "info": "AmaliTech",
+                              "text": "<p>• Zusammenarbeit mit Kunden zur Definition von Anforderungen, Fehlerbehebung und Design und Implementierung neuer Engineering-Anwendungen.</p> \n\n<p>• Bereitstellung umfassender Dokumentation zu Designentscheidungen, Annahmen, Codemodulen und Leistungskennzahlen.</p> \n\n<p>• Eng mit Kollegen zusammengearbeitet, um Lösungen zu brainstormen, Probleme zu debuggen und Code auf Qualität zu prüfen.</p>",
+                              "tags": ["JavaScript", "React", "HTML"]
+                            }
+                          
 
 
                     }
@@ -136,36 +152,42 @@
                     },
                     "locales": {
                             "en": {
-                                "title": "**Data** Analyst",
-                                "info": "Ministry of Education - GES",
-                                "text": "<p>• Leveraged AWS cloud infrastructure to streamline data analysis workflows and enhance scalability.</p> \n\n<p>• Designed and managed key product data structures to drive actionable insights and performance measurements.</p> \n\n<p>• Applied advanced data analysis techniques to monitor process efficiency and identify data integrity exceptions, ensuring data reliability and operational effectiveness.</p>",
-                                "tags": ["SQL", "AWS", "Python", "Tableau"]
+                              "title": "**Data** Analyst",
+                              "info": "Ministry of Education - GES",
+                              "text": "<p>• Leveraged AWS cloud infrastructure to streamline data analysis workflows and enhance scalability.</p> \n\n<p>• Designed and managed key product data structures to drive actionable insights and performance measurements.</p> \n\n<p>• Applied advanced data analysis techniques to monitor process efficiency and identify data integrity exceptions, ensuring data reliability and operational effectiveness.</p>",
+                              "tags": ["SQL", "AWS", "Python", "Tableau"]
                             },
                             "es": {
-                                "title": "**Analista de Datos**",
-                                "info": "Ministerio de Educación - GES",
-                                "text": "<p>• Aproveché la infraestructura en la nube de AWS para agilizar los flujos de trabajo de análisis de datos y mejorar la escalabilidad.</p> \n\n<p>• Diseñé y gestioné estructuras clave de datos de productos para generar conocimientos útiles y mediciones de rendimiento.</p> \n\n<p>• Apliqué técnicas avanzadas de análisis de datos para monitorear la eficiencia de los procesos e identificar excepciones en la integridad de los datos, asegurando la fiabilidad de los datos y la efectividad operativa.</p>",
-                                "tags": ["SQL", "AWS", "Python", "Tableau"]
+                              "title": "**Analista de Datos**",
+                              "info": "Ministerio de Educación - GES",
+                              "text": "<p>• Aprovechó la infraestructura en la nube de AWS para optimizar los flujos de trabajo de análisis de datos y mejorar la escalabilidad.</p> \n\n<p>• Diseñó y gestionó estructuras de datos clave para impulsar conocimientos accionables y medir el rendimiento.</p> \n\n<p>• Aplicó técnicas avanzadas de análisis de datos para supervisar la eficiencia de los procesos e identificar excepciones de integridad de datos, garantizando la fiabilidad y eficacia operativa.</p>",
+                              "tags": ["SQL", "AWS", "Python", "Tableau"]
                             },
                             "fr": {
-                                "title": "**Analyste de Données**",
-                                "info": "Ministère de l'Éducation - GES",
-                                "text": "<p>• Exploité l'infrastructure cloud AWS pour rationaliser les flux de travail d'analyse des données et améliorer l'évolutivité.</p> \n\n<p>• Conçu et géré des structures de données clés pour générer des informations exploitables et des mesures de performance.</p> \n\n<p>• Appliqué des techniques avancées d'analyse de données pour surveiller l'efficacité des processus et identifier les exceptions d'intégrité des données, garantissant la fiabilité des données et l'efficacité opérationnelle.</p>",
-                                "tags": ["SQL", "AWS", "Python", "Tableau"]
+                              "title": "**Analyste** de Données",
+                              "info": "Ministère de l'Éducation - GES",
+                              "text": "<p>• Exploité l'infrastructure cloud AWS pour rationaliser les flux de travail d'analyse de données et améliorer la scalabilité.</p> \n\n<p>• Conçu et géré des structures de données clés pour générer des insights exploitables et mesurer les performances.</p> \n\n<p>• Appliqué des techniques avancées d'analyse de données pour surveiller l'efficacité des processus et identifier les exceptions d'intégrité des données, garantissant la fiabilité et l'efficacité opérationnelle.</p>",
+                              "tags": ["SQL", "AWS", "Python", "Tableau"]
                             },
                             "nl": {
-                                "title": "**Data** Analist",
-                                "info": "Ministerie van Onderwijs - GES",
-                                "text": "<p>• Benut de AWS-cloudinfrastructuur om de werkstromen van gegevensanalyse te stroomlijnen en de schaalbaarheid te verbeteren.</p> \n\n<p>• Ontworpen en beheerd belangrijke productgegevensstructuren om bruikbare inzichten en prestatiefactoren te bevorderen.</p> \n\n<p>• Pas geavanceerde data-analysetechnieken toe om de efficiëntie van processen te monitoren en uitzonderingen in gegevensintegriteit te identificeren, waardoor de betrouwbaarheid en operationele effectiviteit van gegevens gewaarborgd werden.</p>",
-                                "tags": ["SQL", "AWS", "Python", "Tableau"]
+                              "title": "**Data** Analist",
+                              "info": "Ministerie van Onderwijs - GES",
+                              "text": "<p>• Benutte AWS-cloudinfrastructuur om workflows voor data-analyse te stroomlijnen en schaalbaarheid te verbeteren.</p> \n\n<p>• Ontworpen en beheerd belangrijke productdatabestanden om bruikbare inzichten en prestatiemeting te stimuleren.</p> \n\n<p>• Geavanceerde data-analysetechnieken toegepast om proces efficiëntie te monitoren en dataintegriteit uitzonderingen te identificeren, waardoor gegevensbetrouwbaarheid en operationele effectiviteit gewaarborgd zijn.</p>",
+                              "tags": ["SQL", "AWS", "Python", "Tableau"]
                             },
                             "gh": {
-                                "title": "**Data** Analyst",
-                                "info": "Ministry of Education - GES",
-                                "text": "<p>• De yɛɛ adwuma wɔ AWS ntɔnkuo no so de boa wɔ nsɛm a ɛwɔ data ho ne nsɛntitiriw.</p> \n\n<p>• Sɛnea ɛbɛyɛ a, yɛde nsɛm no bɔ ho nkɔsoɔ na ɛsɔre fi ho a, na yɛde nsɛm no yɛ ɔdɔm.</p> \n\n<p>• Sɛnea ɛbɛyɛ a, yɛde data ho nhwehwɛmu kɔda ho yɛ ntɛm kɔda so nkɔsoɔ no.</p>",
-                                "tags": ["SQL", "AWS", "Python", "Tableau"]
+                              "title": "**Data** Analyst",
+                              "info": "Ministry of Education - GES",
+                              "text": "<p>• Meyɛ adwuma wɔ AWS cloud infrastructure so de streamline data analysis workflows ne enhance scalability.</p> \n\n<p>• Meyɛ design ne manage key product data structures a ɛboa ma actionable insights ne performance measurements.</p> \n\n<p>• Meyɛ apply advanced data analysis techniques de monitor process efficiency ne identify data integrity exceptions, na ɛma data reliability ne operational effectiveness yɛ pɛ.</p>",
+                              "tags": ["SQL", "AWS", "Python", "Tableau"]
+                            },
+                            "ge": {
+                              "title": "**Daten** Analyst",
+                              "info": "Ministerium für Bildung - GES",
+                              "text": "<p>• Nutzung der AWS-Cloud-Infrastruktur zur Optimierung von Datenanalyse-Workflows und zur Verbesserung der Skalierbarkeit.</p> \n\n<p>• Entwurf und Verwaltung wichtiger Produktdatenstrukturen zur Ableitung umsetzbarer Erkenntnisse und Leistungskennzahlen.</p> \n\n<p>• Anwendung fortgeschrittener Datenanalysetechniken zur Überwachung der Prozesseffizienz und Identifizierung von Datenintegritätsabweichungen, um Datenzuverlässigkeit und operative Effektivität sicherzustellen.</p>",
+                              "tags": ["SQL", "AWS", "Python", "Tableau"]
                             }
-
+                                                  
                         }
                         
                 },
@@ -185,36 +207,92 @@
                                 "title": "**Production Performance** Engineer",
                                 "info": "Hubtel Limited",
                                 "text": "<p>• Optimized system performance and reduced downtime by 20% through the implementation and fine-tuning of monitoring solutions using Nagios, New Relic, and Grafana.</p> \n\n<p>• Developed and maintained observability dashboards with Grafana and Elasticsearch for real-time system health insights, enabling proactive issue resolution.</p> \n\n<p>• Collaborated with cross-functional teams to integrate these tools into CI/CD pipelines, enhancing system reliability and accelerating time-to-resolution for critical issues.</p>",
-                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch"]
+                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch", "Kibana"]
                             },
                             "es": {
                                 "title": "**Ingeniero de Desempeño** de Producción",
                                 "info": "Hubtel Limited",
                                 "text": "<p>• Optimizé el rendimiento del sistema y reduje el tiempo de inactividad en un 20% mediante la implementación y ajuste de soluciones de monitoreo utilizando Nagios, New Relic y Grafana.</p> \n\n<p>• Desarrollé y mantuve paneles de observabilidad con Grafana y Elasticsearch para obtener información en tiempo real sobre la salud del sistema, lo que permitió la resolución proactiva de problemas.</p> \n\n<p>• Colaboré con equipos multifuncionales para integrar estas herramientas en los pipelines de CI/CD, mejorando la confiabilidad del sistema y acelerando el tiempo de resolución de problemas críticos.</p>",
-                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch"]
+                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch", "Kibana"]
                             },
                             "fr": {
                                 "title": "**Ingénieur de Performance** de Production",
                                 "info": "Hubtel Limited",
                                 "text": "<p>• Optimisé les performances du système et réduit les temps d'arrêt de 20% grâce à la mise en place et à l'ajustement de solutions de surveillance utilisant Nagios, New Relic et Grafana.</p> \n\n<p>• J'ai développé et maintenu des tableaux de bord de visibilité avec Grafana et Elasticsearch pour fournir des informations en temps réel sur la santé du système, permettant ainsi une résolution proactive des problèmes.</p> \n\n<p>• J'ai collaboré avec des équipes interfonctionnelles pour intégrer ces outils dans les pipelines CI/CD, améliorant la fiabilité du système et accélérant le temps de résolution des problèmes critiques.</p>",
-                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch"]
+                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch", "Kibana"]
                             },
                             "nl": {
                                 "title": "**Productieprestatie** Ingenieur",
                                 "info": "Hubtel Limited",
                                 "text": "<p>• Geoptimaliseerd de systeemprestaties en downtime met 20% verminderd door het implementeren en verfijnen van monitoroplossingen met behulp van Nagios, New Relic en Grafana.</p> \n\n<p>• Ontwikkelde en beheerde observability dashboards met Grafana en Elasticsearch voor realtime inzicht in de gezondheid van het systeem, waardoor proactieve probleemoplossing mogelijk werd.</p> \n\n<p>• Werkte samen met cross-functionele teams om deze tools in CI/CD-pijplijnen te integreren, waardoor de betrouwbaarheid van het systeem werd verbeterd en de tijd voor het oplossen van kritieke problemen werd versneld.</p>",
-                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch"]
+                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch", "Kibana"]
                             },
                             "gh": {
                                 "title": "**Production Performance** Engineer",
                                 "info": "Hubtel Limited",
                                 "text": "<p>• Mehyehyɛɛ system no so performance na migyina ho abom a ɛda so fi mu de kɔhyɛ monitoring solutions a ɛfa Nagios, New Relic, ne Grafana ho.</p> \n\n<p>• Mede Grafana ne Elasticsearch yɛɛ observability dashboards na ɛma yɛn hu system health nsɛm wɔ berɛ a edi mu no, a ɛboa yɛn ma yɛde nsɛm yɛ adwuma na yɛda so hwehwɛ nsɛm a ɛsɛe.</p> \n\n<p>• Mesan boaa ne nyinaa ma teams no mu wɔn neɛ yɛda no ne CI/CD pipelines mu sɛnea ɛbɛma system no ayɛ den na yɛresɔ nsɛm no ho nkɔsoɔ wɔ bere a ɛhɔ nhia.</p>",
+                                "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch", "Kibana"]
+                            }, 
+                            "ge": {
+                                "title": "**Production Performance** Ingenieur",
+                                "info": "Hubtel Limited",
+                                "text": "<p>• Optimierte Systemleistung und reduzierte Ausfallzeiten um 20 % durch Implementierung und Feinabstimmung von Überwachungslösungen mit Nagios, New Relic und Grafana.</p> \n\n<p>• Entwickelte und pflegte Observability-Dashboards mit Grafana und Elasticsearch für Echtzeit-Einblicke in die Systemgesundheit, wodurch proaktive Problemlösungen ermöglicht wurden.</p> \n\n<p>• Zusammenarbeit mit funktionsübergreifenden Teams zur Integration dieser Tools in CI/CD-Pipelines, wodurch die Systemzuverlässigkeit verbessert und die Zeit zur Lösung kritischer Probleme beschleunigt wurde.</p>",
                                 "tags": ["New Relic", "AWS", "Grafana", "ElasticSearch"]
                             }
 
                         
                     }
-                }
+                },
+                {
+                    "icon": {
+                      "img": "images/pictures/hubtel.png",
+                      "fa": "",
+                      "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                      "start": "03/01/2025",
+                      "end": "now"
+                    },
+                    "locales": {
+                            "en": {
+                              "title": "**Lead Analytics Engineer**",
+                              "info": "Hubtel Limited",
+                              "text": "<p>• Leading the MyCredit Score initiative in collaboration with Hubtel and partner financial institutions, driving a cross-functional team of data analysts and review officers to deliver accurate, real-time credit scoring insights.</p>\n\n<p>• Architected and automated scalable data pipelines using Apache NiFi and AWS S3, enabling seamless ingestion and integration of diverse banking transaction data.</p>\n\n<p>• Optimized ETL workflows with AWS Glue, reducing processing time and enhancing data quality for timely decision-making.</p>\n\n<p>• Developed and maintained robust end-to-end analytics pipelines, ensuring reliable delivery of actionable credit insights to stakeholders.</p>\n\n<p>• Mentored team members, conducted performance reviews, and championed best practices in data governance, analytics, and cloud solutions architecture.</p>",
+                              "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Credit Scoring"]
+                            },
+                            "es": {
+                              "title": "**Ingeniero Líder en Analítica**",
+                              "info": "Hubtel Limited",
+                              "text": "<p>• Liderando la iniciativa MyCredit Score en colaboración con Hubtel y las instituciones financieras asociadas, dirigiendo un equipo multifuncional de analistas de datos y oficiales de revisión para ofrecer información precisa y en tiempo real sobre calificación crediticia.</p>\n\n<p>• Diseñó y automatizó pipelines de datos escalables utilizando Apache NiFi y AWS S3, permitiendo la integración fluida de datos de transacciones bancarias diversas.</p>\n\n<p>• Optimizó los flujos ETL con AWS Glue, reduciendo el tiempo de procesamiento y mejorando la calidad de los datos para una toma de decisiones oportuna.</p>\n\n<p>• Desarrolló y mantuvo pipelines de análisis de extremo a extremo, asegurando la entrega confiable de insights crediticios accionables a los stakeholders.</p>\n\n<p>• Mentorizó al equipo, realizó evaluaciones de desempeño y promovió las mejores prácticas en gobernanza de datos, analítica y arquitectura de soluciones en la nube.</p>",
+                              "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Credit Scoring"]
+                            },
+                            "fr": {
+                              "title": "**Ingénieur Principal en Analytique**",
+                              "info": "Hubtel Limited",
+                              "text": "<p>• Dirige l'initiative MyCredit Score en collaboration avec Hubtel et les institutions financières partenaires, coordonnant une équipe interfonctionnelle d'analystes de données et d'officiers de révision pour fournir des insights précis et en temps réel sur le scoring crédit.</p>\n\n<p>• Conçu et automatisé des pipelines de données évolutifs avec Apache NiFi et AWS S3, permettant une intégration fluide des données bancaires diverses.</p>\n\n<p>• Optimisé les workflows ETL avec AWS Glue, réduisant les temps de traitement et améliorant la qualité des données pour des décisions rapides et fiables.</p>\n\n<p>• Développé et maintenu des pipelines analytiques robustes de bout en bout, assurant une livraison fiable des insights sur le crédit aux parties prenantes.</p>\n\n<p>• Mentorat des membres de l'équipe, évaluations de performance et promotion des meilleures pratiques en gouvernance des données, analytique et architecture cloud.</p>",
+                              "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Credit Scoring"]
+                            },
+                            "nl": {
+                              "title": "**Lead Analytics Engineer**",
+                              "info": "Hubtel Limited",
+                              "text": "<p>• Leidt het MyCredit Score-project in samenwerking met Hubtel en partnerfinanciële instellingen, waarbij een cross-functioneel team van data-analisten en review-officieren wordt aangestuurd om nauwkeurige, realtime kredietscore-inzichten te leveren.</p>\n\n<p>• Ontworpen en geautomatiseerde schaalbare datapijplijnen met Apache NiFi en AWS S3, voor naadloze integratie van diverse banktransactiedata.</p>\n\n<p>• Geoptimaliseerde ETL-workflows met AWS Glue, waardoor de verwerkingstijd werd verkort en de datakwaliteit verbeterd voor tijdige besluitvorming.</p>\n\n<p>• Ontwikkeld en onderhouden robuuste end-to-end analytische pijplijnen, die betrouwbare levering van bruikbare kredietinzichten aan stakeholders waarborgen.</p>\n\n<p>• Begeleide teamleden, uitgevoerd prestatiebeoordelingen en bevorderd best practices in datagovernance, analytics en cloudoplossingsarchitectuur.</p>",
+                              "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Credit Scoring"]
+                            },
+                            "gh": {
+                              "title": "**Lead Analytics Engineer**",
+                              "info": "Hubtel Limited",
+                              "text": "<p>• Meyɛ leading MyCredit Score project wɔ Hubtel ne financial institutions ho, na meyɛ cross-functional team a ɛwɔ data analysts ne review officers de deliver accurate, real-time credit scoring insights.</p>\n\n<p>• Meyɛ architect ne automate scalable data pipelines wɔ Apache NiFi ne AWS S3 so, a ɛboa seamless ingestion ne integration of banking transaction data.</p>\n\n<p>• Meyɛ optimize ETL workflows wɔ AWS Glue, a ɛreduce processing time ne improve data quality ma timely decision-making.</p>\n\n<p>• Meyɛ develop ne maintain robust end-to-end analytics pipelines, a ɛensure reliable delivery of actionable credit insights kɔ stakeholders nkyɛn.</p>\n\n<p>• Meyɛ mentor team members, conduct performance reviews, na champion best practices wɔ data governance, analytics, ne cloud solutions architecture mu.</p>",
+                              "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Credit Scoring"]
+                            },
+                            "ge": {
+                              "title": "**Lead Analytics Engineer**",
+                              "info": "Hubtel Limited",
+                              "text": "<p>• Leitung des MyCredit Score-Projekts in Zusammenarbeit mit Hubtel und Finanzinstituten, Führung eines funktionsübergreifenden Teams von Datenanalysten und Prüfern zur Bereitstellung präziser, Echtzeit-Credit-Scoring-Einblicke.</p>\n\n<p>• Entwurf und Automatisierung skalierbarer Datenpipelines mit Apache NiFi und AWS S3 für nahtlose Integration von Banktransaktionsdaten.</p>\n\n<p>• Optimierung von ETL-Workflows mit AWS Glue, Verkürzung der Verarbeitungszeit und Verbesserung der Datenqualität für zeitnahe Entscheidungen.</p>\n\n<p>• Entwicklung und Pflege robuster End-to-End-Analytics-Pipelines, die eine zuverlässige Bereitstellung umsetzbarer Kredit-Insights an Stakeholder sicherstellen.</p>\n\n<p>• Mentoring von Teammitgliedern, Durchführung von Leistungsbewertungen und Förderung von Best Practices in Daten-Governance, Analytics und Cloud-Lösungsarchitektur.</p>",
+                              "tags": ["AWS", "NiFi", "AWS Glue", "S3", "ETL", "Credit Scoring"]
+                                                      
+                            }}
+                  }
+                  
                 
             ]
         }
