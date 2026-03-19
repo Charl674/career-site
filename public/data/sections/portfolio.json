@@ -48,32 +48,32 @@
                     },
                     "locales": {
                             "en": {
-                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens 2.0 — Live Credit Risk Intelligence</a>",
+                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens — Live Credit Risk Intelligence</a>",
                               "text": "A production-style analytics engineering project that ingests live Federal Reserve credit risk data, transforms it through a modern cloud data stack (Snowflake, dbt), and delivers a board-ready <a href='https://lookerstudio.google.com/s/gjyVuwWzDnk' target='_blank' rel='noopener noreferrer'>Looker Studio dashboard</a> that updates automatically every quarter.",
                               "tags": ["dbt", "Snowflake", "Python"]
                             },
                             "es": {
-                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens 2.0 — Inteligencia de Riesgo Crediticio en Vivo</a>",
+                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens — Inteligencia de Riesgo Crediticio en Vivo</a>",
                               "text": "Un proyecto de ingeniería analítica de estilo de producción que ingesta datos en vivo del riesgo crediticio de la Reserva Federal, los transforma a través de un stack de datos en la nube moderno (Snowflake, dbt), y entrega un <a href='https://lookerstudio.google.com/s/gjyVuwWzDnk' target='_blank' rel='noopener noreferrer'>dashboard de Looker Studio</a> listo para la junta directiva que se actualiza automáticamente cada trimestre.",
                               "tags": ["dbt", "Snowflake", "Python"]
                             },
                             "fr": {
-                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens 2.0 — Intelligence du Risque de Crédit en Direct</a>",
+                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens — Intelligence du Risque de Crédit en Direct</a>",
                               "text": "Un projet d'ingénierie analytique de type production qui ingère des données de risque de crédit de la Réserve Fédérale en direct, les transforme via une stack de données cloud moderne (Snowflake, dbt), et fournit un <a href='https://lookerstudio.google.com/s/gjyVuwWzDnk' target='_blank' rel='noopener noreferrer'>tableau de bord Looker Studio</a> prêt pour la direction qui se met à jour automatiquement chaque trimestre.",
                               "tags": ["dbt", "Snowflake", "Python"]
                             },
                             "nl": {
-                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens 2.0 — Live Kredietrisico Intelligentie</a>",
+                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens — Live Kredietrisico Intelligentie</a>",
                               "text": "Een productie-stijl analytics engineering project dat live Federal Reserve kredietrisicodata opneemt, deze transformeert via een moderne cloud data stack (Snowflake, dbt) en een directieklaar <a href='https://lookerstudio.google.com/s/gjyVuwWzDnk' target='_blank' rel='noopener noreferrer'>Looker Studio dashboard</a> levert dat elk kwartaal automatisch wordt bijgewerkt.",
                               "tags": ["dbt", "Snowflake", "Python"]
                             },
                             "gh": {
-                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens 2.0 — Live Credit Risk Intelligence</a>",
+                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens — Live Credit Risk Intelligence</a>",
                               "text": "Production-style analytics engineering project a ɛingest live Federal Reserve credit risk data, transform no fa modern cloud data stack (Snowflake, dbt) mu, ne ɛde board-ready <a href='https://lookerstudio.google.com/s/gjyVuwWzDnk' target='_blank' rel='noopener noreferrer'>Looker Studio dashboard</a> ba sɛnea yɛse automatically update da biara wɔ quarter.",
                               "tags": ["dbt", "Snowflake", "Python"]
                             },
                             "ge": {
-                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens 2.0 — Live-Kreditrisiko-Intelligenz</a>",
+                              "title": "<a href='https://github.com/Charl674/loanlens' target='_blank' rel='noopener noreferrer'>LoanLens — Live-Kreditrisiko-Intelligenz</a>",
                               "text": "Ein Analytics-Engineering-Projekt im Produktionsstil, das Live-Kreditrisikodaten der Federal Reserve aufnimmt, sie durch einen modernen Cloud-Data-Stack (Snowflake, dbt) transformiert und ein vorstandsreifes <a href='https://lookerstudio.google.com/s/gjyVuwWzDnk' target='_blank' rel='noopener noreferrer'>Looker Studio-Dashboard</a> liefert, das sich jedes Quartal automatisch aktualisiert.",
                               "tags": ["dbt", "Snowflake", "Python"]
                             }
