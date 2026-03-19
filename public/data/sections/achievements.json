@@ -1,281 +1,166 @@
 {
-    "locales": {
-            "en": {
-              "title": "Certifications",
-              "title_menu": "Certifications",
-              "title_long_prefix": "Here are my",
-              "title_long": "**Certifications**"
-            },
-            "es": {
-              "title": "Certificaciones",
-              "title_menu": "Certificaciones",
-              "title_long_prefix": "Aquí están mis",
-              "title_long": "**Certificaciones**"
-            },
-            "fr": {
-              "title": "Certifications",
-              "title_menu": "Certifications",
-              "title_long_prefix": "Voici",
-              "title_long": "Mes **Certifications**"
-            },
-            "nl": {
-              "title": "Certificeringen",
-              "title_menu": "Certificeringen",
-              "title_long_prefix": "Hier zijn mijn",
-              "title_long": "**Certificeringen**"
-            },
-            "gh": {
-              "title": "Nwoma Ntɔn",
-              "title_menu": "Nwoma Ntɔn",
-              "title_long_prefix": "Ɛwɔ ha",
-              "title_long": "Me **Nwoma Ntɔn**"
-            },
-            "ge": {
-              "title": "Zertifizierungen",
-              "title_menu": "Zertifizierungen",
-              "title_long_prefix": "Hier sind meine",
-              "title_long": "**Zertifizierungen**"
-            }
-          
-
+  "locales": {
+    "en": {
+      "title": "Certifications",
+      "title_menu": "Certifications",
+      "title_long_prefix": "Here are my",
+      "title_long": "**Certifications**"
     },
-
-    "articles": [
-        {
-            "id": "certifications",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {
-                "en": { "title": "Certs" },
-                "es": { "title": "Certs" },
-                "fr": { "title": "Certifications" },
-                "nl": { "title": "Certs" },
-                "gh": { "title": "Nwoma Ntɔn" },
-                "ge": { "title": "Zertifikate" }
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/365.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    
-                               },
-                    "dates": {
-                        "start": "11/21/2025",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.credential.net/cf3b03c9-dcab-4663-8261-4e9542062c7d" }
-                    ],
-                    "locales": {
-                            "en": {
-                              "title": "**365 Data Science**",
-                              "text": "The Data Science Course"
-                            },
-                            "es": {
-                              "title": "**365 Data Science**",
-                              "text": "El Curso de Ciencia de Datos"
-                            },
-                            "fr": {
-                              "title": "**365 Data Science**",
-                              "text": "Le Cours de Science des Données"
-                            },
-                            "nl": {
-                              "title": "**365 Data Science**",
-                              "text": "De Data Science Cursus"
-                            },
-                            "gh": {
-                              "title": "**365 Data Science**",
-                              "text": "Data Science Adesua"
-                            },
-                            "ge": {
-                              "title": "**365 Data Science**",
-                              "text": "Der Data Science Kurs"
-                            }
-                        
-                    }
-                },
-                {
-                    "icon": {
-                        "img": "images/pictures/ICSI.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    
-                               },
-                    "dates": {
-                        "start": "05/20/2020",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.credential.net/cf3b03c9-dcab-4663-8261-4e9542062c7d" }
-                    ],
-                    "locales": {
-                            "en": {
-                                "title": "**International CyberSecurity** Institute",
-                                "text": "CNSS Certified Network Specialist"
-                            },
-                            "es": {
-                                "text": "Especialista en Redes Certificado CNSS"
-                            },
-                            "fr": {
-                                "text": "Spécialiste des Réseaux Certifié CNSS"
-                            },
-                            "nl": {
-                                "text": "CNSS Gecertificeerde Netwerkspecialist"
-                            },
-                            "gh": {
-                                "text": "CNSS Ahyemfoɔ a wɔahyɛ no ho kwan"
-                            }
-                        
-                        
-                    }
-                },
-
-                {
-                   "icon": {
-                        "img": "images/pictures/ZTM.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "11/13/2024",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.udemy.com/certificate/UC-48494b70-3fbd-4e97-914f-fbb9128a8ca5/" }
-                    ],
-                    "locales": {
-                            "en": {
-                                "title": "**ZTM** Academy",
-                                "text": "Complete A.I. & Machine Learning, Data Science"
-                            },
-                            "es": {
-                                "text": "Completo A.I. y Aprendizaje Automático, Ciencia de Datos"
-                            },
-                            "fr": {
-                                "text": "A.I. et Apprentissage Automatique, Science des Données"
-                            },
-                            "gh": {
-                                "text": "A.I. & Nwoma Nkyerɛmu, Data Science"
-                            },
-                            "nl": {
-                                "text": "Voltooide A.I. & Machine Learning, Data Science"
-                        }
-                        
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-aws",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "dates": {
-                        "start": "07/23/2024",
-                        "end": "07/23/2027"
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.credly.com/badges/e7c41313-3632-4d36-af09-b69657b61716/linked_in_profile" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Amazon** Web Services",
-                            "text": "AWS Certified Cloud Practitioner"
-                        },
-                        "es": {
-                            "text": "Profesional Certificado de la Nube AWS"
-                        },
-                        "fr": {
-                            "text": "Praticien Certifié AWS Cloud"
-                        },
-                        "nl": {
-                            "text": "AWS Gecertificeerde Cloud Practitioner"
-                        },
-                        "gh": {
-                            "text": "AWS Ahwɛfoɔ a wɔyɛ Kɔmputa so – Dɔkita"
-                        }
-
-                    }},
-                {
-                    "icon": {
-                        "img": "images/pictures/AICPA.jpeg",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": { 
-                        "start": "03/01/2021",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/certificate/A4SPEGRF2EWJ" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**AICPA & CIMA**",
-                            "text": "Blockchain Evolution and Technology Concepts"
-                        },
-                        "es": {
-                            "text": "Evolución de Blockchain y Conceptos de Tecnología"
-                        },
-                        "fr": {
-                            "text": "Évolution de la Blockchain et Concepts Technologiques"
-                        },
-                        "nl": {
-                            "text": "Blockchain Evolutie en Technologieconcepten"
-                        },
-                        "gh": {
-                            "text": "Blockchain Mmerɛ ne Ntɛmntɛm Nsɛmfua"
-                        }
-
-                    }
-                },
-
-                {
-                    "icon": {
-                      "img": "images/pictures/Udemy.png",
-                      "fa": "",
-                      "faColors": { "bg": null, "fill": null }
-                    },
-                    "dates": {
-                      "start": "03/01/2021",
-                      "end": null
-                    },
-                    "links": [
-                      {
-                        "string": "see_certification",
-                        "href": "https://www.udemy.com/certificate/UC-e727b214-c355-4327-bc07-ed4654af61a8/"
-                      }
-                    ],
-                    "locales": {
-                      "en": {
-                        "title": "**Apache NiFi – Beginners to Experts**",
-                        "text": "Mastered building scalable and automated data pipelines using Apache NiFi."
-                      },
-                      "es": {
-                        "text": "Dominé la creación de pipelines de datos escalables y automatizados con Apache NiFi."
-                      },
-                      "fr": {
-                        "text": "Maîtrise de la création de pipelines de données automatisés et évolutifs avec Apache NiFi."
-                      },
-                      "nl": {
-                        "text": "Beheerst het bouwen van schaalbare en geautomatiseerde datapijplijnen met Apache NiFi."
-                      },
-                      "gh": {
-                        "text": "M’akɔ akyirikyiri wɔ Apache NiFi so na mayɛ data pipelines a ɛyɛ den na ɛyɛ ɔtoɔtu."
-                      }
-                    }
-                  }
-                  
-                
-            ]
+    "es": {
+      "title": "Certificaciones",
+      "title_menu": "Certificaciones",
+      "title_long_prefix": "Aquí están mis",
+      "title_long": "**Certificaciones**"
+    },
+    "fr": {
+      "title": "Certifications",
+      "title_menu": "Certifications",
+      "title_long_prefix": "Voici",
+      "title_long": "Mes **Certifications**"
+    },
+    "nl": {
+      "title": "Certificeringen",
+      "title_menu": "Certificeringen",
+      "title_long_prefix": "Hier zijn mijn",
+      "title_long": "**Certificeringen**"
+    },
+    "gh": {
+      "title": "Nwoma Ntɔn",
+      "title_menu": "Nwoma Ntɔn",
+      "title_long_prefix": "Ɛwɔ ha",
+      "title_long": "Me **Nwoma Ntɔn**"
+    },
+    "ge": {
+      "title": "Zertifizierungen",
+      "title_menu": "Zertifizierungen",
+      "title_long_prefix": "Hier sind meine",
+      "title_long": "**Zertifizierungen**"
+    }
+  },
+  "articles": [
+    {
+      "id": "certifications",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "Certs"
+        },
+        "es": {
+          "title": "Certs"
+        },
+        "fr": {
+          "title": "Certifications"
+        },
+        "nl": {
+          "title": "Certs"
+        },
+        "gh": {
+          "title": "Nwoma Ntɔn"
+        },
+        "ge": {
+          "title": "Zertifikate"
         }
-
-        
-                    
-                
-            
-        
-    ]
+      },
+      "items": [
+        {
+          "icon": {
+            "fa": "fa-solid fa-graduation-cap"
+          },
+          "dates": {
+            "start": "01/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**365 Data Science**",
+              "text": "The Data Science Course"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-brain"
+          },
+          "dates": {
+            "start": "01/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**ZTM Academy**",
+              "text": "Complete A.I. & Machine Learning, Data Science"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-brands fa-aws"
+          },
+          "dates": {
+            "start": "07/23/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**AWS** Certified Cloud Practitioner"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-database"
+          },
+          "dates": {
+            "start": "01/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**IBM** Data Engineering",
+              "text": "Credential ID: QQYTYJK9PBNW"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-wind"
+          },
+          "dates": {
+            "start": "01/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**APACHE NiFi**",
+              "text": "FutureX Skills (Udemy)"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-shield-halved"
+          },
+          "dates": {
+            "start": "05/20/2020"
+          },
+          "locales": {
+            "en": {
+              "title": "**CNSS** Certified Network Security Specialist",
+              "text": "International Cybersecurity Institute - 18368354"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-brands fa-bitcoin"
+          },
+          "dates": {
+            "start": "03/01/2021"
+          },
+          "locales": {
+            "en": {
+              "title": "**AICPA & CIMA**",
+              "text": "Blockchain Evolution and Technology Concepts - A4SPEGRF2EW"
+            }
+          }
+        }
+      ]
+    }
+  ]
 }

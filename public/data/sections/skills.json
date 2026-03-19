@@ -1,323 +1,440 @@
 {
-    "locales": {
+  "locales": {
+    "en": {
+      "title": "Skills",
+      "title_long_prefix": "Explore",
+      "title_long": "My **Skill Set**"
+    },
+    "es": {
+      "title": "Habilidades",
+      "title_long_prefix": "Explora",
+      "title_long": "Mi **Conjunto de Habilidades**"
+    },
+    "fr": {
+      "title": "Compétences",
+      "title_long_prefix": "Découvrez",
+      "title_long": "Mon **Ensemble de Compétences**"
+    },
+    "nl": {
+      "title": "Vaardigheden",
+      "title_long_prefix": "Ontdek",
+      "title_long": "Mijn **Vaardigheden**"
+    },
+    "gh": {
+      "title": "Nimdeɛ",
+      "title_long_prefix": "Hwɛ",
+      "title_long": "Me **Nimdeɛ**"
+    },
+    "ge": {
+      "title": "Fähigkeiten",
+      "title_long_prefix": "Entdecke",
+      "title_long": "Mein **Fähigkeiten-Set**"
+    }
+  },
+  "articles": [
+    {
+      "id": "capabilities",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-cloud",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "locales": {
             "en": {
-              "title": "Skills",
-              "title_long_prefix": "Explore",
-              "title_long": "My **Skill Set**"
+              "title": "**Cloud** Architecture",
+              "text": "Designing and implementing scalable, secure cloud solutions to empower businesses."
             },
             "es": {
-              "title": "Habilidades",
-              "title_long_prefix": "Explora",
-              "title_long": "Mi **Conjunto de Habilidades**"
+              "title": "**Arquitectura** en la Nube",
+              "text": "Diseño e implementación de soluciones en la nube escalables y seguras para potenciar los negocios."
             },
             "fr": {
-              "title": "Compétences",
-              "title_long_prefix": "Découvrez",
-              "title_long": "Mon **Ensemble de Compétences**"
+              "title": "Architecture **Cloud**",
+              "text": "Conception et mise en œuvre de solutions cloud sécurisées et évolutives pour dynamiser les entreprises."
             },
             "nl": {
-              "title": "Vaardigheden",
-              "title_long_prefix": "Ontdek",
-              "title_long": "Mijn **Vaardigheden**"
+              "title": "**Cloud** Architectuur",
+              "text": "Ontwerpen en implementeren van schaalbare en veilige cloudoplossingen om bedrijven te versterken."
             },
             "gh": {
-              "title": "Nimdeɛ",
-              "title_long_prefix": "Hwɛ",
-              "title_long": "Me **Nimdeɛ**"
+              "title": "**Ɔsoro So** Nhyehyɛe",
+              "text": "Mede nhyehyɛe a ɛyɛ secure ne scalable bɛboa wo adwuma mu."
             },
             "ge": {
-              "title": "Fähigkeiten",
-              "title_long_prefix": "Entdecke",
-              "title_long": "Mein **Fähigkeiten-Set**"
+              "title": "**Cloud** Architektur",
+              "text": "Entwerfen und Implementieren skalierbarer, sicherer Cloud-Lösungen zur Stärkung von Unternehmen."
             }
-                  
-    },
-
-    "articles": [
-        {
-            "id": "capabilities",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-cloud",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                            "en": {
-                              "title": "**Cloud** Architecture",
-                              "text": "Designing and implementing scalable, secure cloud solutions to empower businesses."
-                            },
-                            "es": {
-                              "title": "**Arquitectura** en la Nube",
-                              "text": "Diseño e implementación de soluciones en la nube escalables y seguras para potenciar los negocios."
-                            },
-                            "fr": {
-                              "title": "Architecture **Cloud**",
-                              "text": "Conception et mise en œuvre de solutions cloud sécurisées et évolutives pour dynamiser les entreprises."
-                            },
-                            "nl": {
-                              "title": "**Cloud** Architectuur",
-                              "text": "Ontwerpen en implementeren van schaalbare en veilige cloudoplossingen om bedrijven te versterken."
-                            },
-                            "gh": {
-                              "title": "**Ɔsoro So** Nhyehyɛe",
-                              "text": "Mede nhyehyɛe a ɛyɛ secure ne scalable bɛboa wo adwuma mu."
-                            },
-                            "ge": {
-                              "title": "**Cloud** Architektur",
-                              "text": "Entwerfen und Implementieren skalierbarer, sicherer Cloud-Lösungen zur Stärkung von Unternehmen."
-                            }}
-                                                    
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                            "en": {
-                              "title": "**Analytics Engineering**",
-                              "text": "Designing, building, and optimizing data pipelines to deliver actionable insights and support business decisions."
-                            },
-                            "es": {
-                              "title": "**Ingeniería Analítica**",
-                              "text": "Diseño, construcción y optimización de flujos de datos para ofrecer insights accionables y apoyar decisiones empresariales."
-                            },
-                            "fr": {
-                              "title": "**Ingénierie Analytique**",
-                              "text": "Conception, construction et optimisation des pipelines de données pour fournir des insights exploitables et soutenir les décisions commerciales."
-                            },
-                            "nl": {
-                              "title": "**Analytics Engineering**",
-                              "text": "Ontwerpen, bouwen en optimaliseren van datapijplijnen om bruikbare inzichten te leveren en zakelijke beslissingen te ondersteunen."
-                            },
-                            "gh": {
-                              "title": "**Analytics Engineer**",
-                              "text": "Mede data pipelines ho nhyehyɛe, yɛ data clean ne transform de ma adwuma mu decisions a ɛyɛ nokware."
-                            },
-                            "ge": {
-                              "title": "**Analytics Engineering**",
-                              "text": "Entwurf, Aufbau und Optimierung von Datenpipelines zur Bereitstellung verwertbarer Erkenntnisse und Unterstützung von Geschäftsentscheidungen."
-                            }
-                                                    
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                            "en": {
-                              "title": "Information **Security**",
-                              "text": "Ensuring robust security measures across systems and data to protect business assets and privacy."
-                            },
-                            "es": {
-                              "title": "Seguridad de la **Información**",
-                              "text": "Garantizando medidas de seguridad sólidas en sistemas y datos para proteger los activos y la privacidad empresarial."
-                            },
-                            "fr": {
-                              "title": "Sécurité de l'**Information**",
-                              "text": "Assurer des mesures de sécurité robustes sur les systèmes et les données pour protéger les actifs et la confidentialité de l'entreprise."
-                            },
-                            "nl": {
-                              "title": "Informatie-**Beveiliging**",
-                              "text": "Zorgen voor robuuste beveiligingsmaatregelen voor systemen en gegevens om bedrijfsactiva en privacy te beschermen."
-                            },
-                            "gh": {
-                              "title": "Nsɛm Ho **Bɔ**",
-                              "text": "Mede bɔ ho nhyehyɛe yɛ adwuma wɔ data ne systems mu de bɔ adwuma nsɛm ne privacy ho ban."
-                            },
-                            "ge": {
-                              "title": "Informations-**Sicherheit**",
-                              "text": "Gewährleistung robuster Sicherheitsmaßnahmen für Systeme und Daten zum Schutz von Unternehmenswerten und Datenschutz."
-                            }                          
-                        
-                    }
-                }
-            ]
-
+          }
         },
         {
-            "id": "technical_stack",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {
-                    "en": { "title": "Technical Stack" },
-                    "es": { "title": "Stack Técnico" },
-                    "fr": { "title": "Stack Technique" },
-                    "nl": { "title": "Technische Stack" },
-                    "gh": { "title": "Technical Stack" },
-                    "ge": { "title": "Technischer Stack" }
-                  
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "**Analytics Engineering**",
+              "text": "Designing, building, and optimizing data pipelines to deliver actionable insights and support business decisions."
             },
-            "items": [
-  
-                    { "icon": { "fa": "fa-brands fa-python" }, "locales": { "en": { "title": "Python" } } },
-                    { "icon": { "fa": "fa-solid fa-database" }, "locales": { "en": { "title": "SQL" } } },
-                    { "icon": { "fa": "fa-brands fa-aws" }, "locales": { "en": { "title": "AWS" } } },
-                    { "icon": { "fa": "fa-solid fa-code-branch" }, "locales": { "en": { "title": "Git" } } },
-                    { "icon": { "fa": "fa-solid fa-chart-line" }, "locales": { "en": { "title": "Scikit-learn" } } },
-                    { "icon": { "fa": "fa-brands fa-react" }, "locales": { "en": { "title": "React" } } },
-                    { "icon": { "fa": "fa-solid fa-palette" }, "locales": { "en": { "title": "Matplotlib" } } }
-                
-]
-              
+            "es": {
+              "title": "**Ingeniería Analítica**",
+              "text": "Diseño, construcción y optimización de flujos de datos para ofrecer insights accionables y apoyar decisiones empresariales."
+            },
+            "fr": {
+              "title": "**Ingénierie Analytique**",
+              "text": "Conception, construction et optimisation des pipelines de données pour fournir des insights exploitables et soutenir les décisions commerciales."
+            },
+            "nl": {
+              "title": "**Analytics Engineering**",
+              "text": "Ontwerpen, bouwen en optimaliseren van datapijplijnen om bruikbare inzichten te leveren en zakelijke beslissingen te ondersteunen."
+            },
+            "gh": {
+              "title": "**Analytics Engineer**",
+              "text": "Mede data pipelines ho nhyehyɛe, yɛ data clean ne transform de ma adwuma mu decisions a ɛyɛ nokware."
+            },
+            "ge": {
+              "title": "**Analytics Engineering**",
+              "text": "Entwurf, Aufbau und Optimierung von Datenpipelines zur Bereitstellung verwertbarer Erkenntnisse und Unterstützung von Geschäftsentscheidungen."
+            }
+          }
         },
-
         {
-            "id": "languages",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                    "en": { "title": "Languages" },
-                    "es": { "title": "Idiomas" },
-                    "fr": { "title": "Langues" },
-                    "nl": { "title": "Talen" },
-                    "gh": { "title": "Kasa" },
-                    "ge": { "title": "Sprachen" }
-                
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-lock",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Information **Security**",
+              "text": "Ensuring robust security measures across systems and data to protect business assets and privacy."
             },
-                
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/flags/en.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                            "en": {
-                                "title": "English",
-                                "info": "Native speaker with excellent communication and writing skills.",
-                                "tags": ["Native"]
-                            },
-                            "es": {
-                                "title": "Español",
-                                "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                                "tags": ["Nativo"]
-                            },
-                            "fr": {
-                                "title": "Français",
-                                "info": "Locuteur natif avec d'excellentes compétences en communication et en écriture.",
-                                "tags": ["Natif"]
-                            },
-                            "nl": {
-                                "title": "Nederlands",
-                                "info": "Moedertaalspreker met uitstekende communicatie- en schrijfvaardigheden.",
-                                "tags": ["Moedertaal"]
-                            },
-                            "gh": {
-                                "title": "Twi",
-                                "info": "Ɔkasakoa a ɔwɔ kasa pa ne nwoma ho nimdeɛ.",
-                                "tags": ["Ɔkasakoa"]
-                            },
-                            "ge": {
-                                "title": "Deutsch",
-                                "info": "Muttersprachler mit ausgezeichneten Kommunikations- und Schreibfähigkeiten.",
-                                "tags": ["Muttersprache"]
-                            }
-                        
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/fr.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                            "en": {
-                                "title": "French",
-                                "info": "I can hold basic conversations in French.",
-                                "tags": ["Moderate"]
-                            },
-                            "es": {
-                                "title": "Francés",
-                                "info": "Puedo mantener conversaciones básicas en francés.",
-                                "tags": ["Moderado"]
-                            },
-                            "fr": {
-                                "title": "Français",
-                                "info": "Je peux tenir des conversations de base en français.",
-                                "tags": ["Moyen"]
-                            },
-                            "nl": {
-                                "title": "Frans",
-                                "info": "Ik kan eenvoudige gesprekken in het Frans voeren.",
-                                "tags": ["Gemiddeld"]
-                            },
-                            "gh": {
-                                "title": "Frɛnkɛ",
-                                "info": "Mɛtumi akasa frɛnkɛ wɔ ɛho kakra.",
-                                "tags": ["Ɔyɛ mmerɛ"]
-                            },
-                            "ge": {
-                                "title": "Französisch",
-                                "info": "Ich kann einfache Gespräche auf Französisch führen.",
-                                "tags": ["Mittel"]
-                            }                        
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/ghana.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                            "en": {
-                                "title": "Twi",
-                                "info": "I can write and hold very advanced conversations in Twi.",
-                                "tags": ["Fluent"]
-                            },
-                            "es": {
-                                "title": "Twi",
-                                "info": "Puedo escribir y mantener conversaciones muy avanzadas en Twi.",
-                                "tags": ["Fluido"]
-                            },
-                            "fr": {
-                                "title": "Twi",
-                                "info": "Je peux écrire et tenir des conversations très avancées en Twi.",
-                                "tags": ["Courant"]
-                            },
-                            "nl": {
-                                "title": "Twi",
-                                "info": "Ik kan zeer geavanceerde gesprekken in het Twi voeren en schrijven.",
-                                "tags": ["Vloeiend"]
-                            },
-                            "gh": {
-                                "title": "Twi",
-                                "info": "Mɛtumi akyerɛw na akasa Twi paa.",
-                                "tags": ["Pɛyɛ"]
-                            },
-                            "ge": {
-                                "title": "Twi",
-                                "info": "Ich kann sehr fortgeschrittene Gespräche auf Twi führen und schreiben.",
-                                "tags": ["Fließend"]
-                            }
-                                                
-                    }
-                }
-            ]
+            "es": {
+              "title": "Seguridad de la **Información**",
+              "text": "Garantizando medidas de seguridad sólidas en sistemas y datos para proteger los activos y la privacidad empresarial."
+            },
+            "fr": {
+              "title": "Sécurité de l'**Information**",
+              "text": "Assurer des mesures de sécurité robustes sur les systèmes et les données pour protéger les actifs et la confidentialité de l'entreprise."
+            },
+            "nl": {
+              "title": "Informatie-**Beveiliging**",
+              "text": "Zorgen voor robuuste beveiligingsmaatregelen voor systemen en gegevens om bedrijfsactiva en privacy te beschermen."
+            },
+            "gh": {
+              "title": "Nsɛm Ho **Bɔ**",
+              "text": "Mede bɔ ho nhyehyɛe yɛ adwuma wɔ data ne systems mu de bɔ adwuma nsɛm ne privacy ho ban."
+            },
+            "ge": {
+              "title": "Informations-**Sicherheit**",
+              "text": "Gewährleistung robuster Sicherheitsmaßnahmen für Systeme und Daten zum Schutz von Unternehmenswerten und Datenschutz."
+            }
+          }
         }
-    ]
+      ]
+    },
+    {
+      "id": "technical_stack",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "Technical Stack"
+        },
+        "es": {
+          "title": "Stack Técnico"
+        },
+        "fr": {
+          "title": "Stack Technique"
+        },
+        "nl": {
+          "title": "Technische Stack"
+        },
+        "gh": {
+          "title": "Technical Stack"
+        },
+        "ge": {
+          "title": "Technischer Stack"
+        }
+      },
+      "items": [
+        {
+          "icon": {
+            "fa": "fa-solid fa-chart-pie"
+          },
+          "locales": {
+            "en": {
+              "title": "Data Analytics & BI"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-laptop-code"
+          },
+          "locales": {
+            "en": {
+              "title": "Software Engineering"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-infinity"
+          },
+          "locales": {
+            "en": {
+              "title": "DevOps & Cloud"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-database"
+          },
+          "locales": {
+            "en": {
+              "title": "Data Engineering"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-eye"
+          },
+          "locales": {
+            "en": {
+              "title": "Monitoring & SRE"
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-users-gear"
+          },
+          "locales": {
+            "en": {
+              "title": "Stakeholder Collaboration"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "Languages"
+        },
+        "es": {
+          "title": "Idiomas"
+        },
+        "fr": {
+          "title": "Langues"
+        },
+        "nl": {
+          "title": "Talen"
+        },
+        "gh": {
+          "title": "Kasa"
+        },
+        "ge": {
+          "title": "Sprachen"
+        }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "images/flags/en.png",
+            "fa": null,
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "value": null,
+          "dates": {
+            "start": null
+          },
+          "locales": {
+            "en": {
+              "title": "English",
+              "info": "Native speaker with excellent communication and writing skills.",
+              "tags": [
+                "Native"
+              ]
+            },
+            "es": {
+              "title": "Español",
+              "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
+              "tags": [
+                "Nativo"
+              ]
+            },
+            "fr": {
+              "title": "Français",
+              "info": "Locuteur natif avec d'excellentes compétences en communication et en écriture.",
+              "tags": [
+                "Natif"
+              ]
+            },
+            "nl": {
+              "title": "Nederlands",
+              "info": "Moedertaalspreker met uitstekende communicatie- en schrijfvaardigheden.",
+              "tags": [
+                "Moedertaal"
+              ]
+            },
+            "gh": {
+              "title": "Twi",
+              "info": "Ɔkasakoa a ɔwɔ kasa pa ne nwoma ho nimdeɛ.",
+              "tags": [
+                "Ɔkasakoa"
+              ]
+            },
+            "ge": {
+              "title": "Deutsch",
+              "info": "Muttersprachler mit ausgezeichneten Kommunikations- und Schreibfähigkeiten.",
+              "tags": [
+                "Muttersprache"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/fr.png",
+            "fa": null,
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "value": null,
+          "dates": {
+            "start": null
+          },
+          "locales": {
+            "en": {
+              "title": "French",
+              "info": "I can hold basic conversations in French.",
+              "tags": [
+                "Moderate"
+              ]
+            },
+            "es": {
+              "title": "Francés",
+              "info": "Puedo mantener conversaciones básicas en francés.",
+              "tags": [
+                "Moderado"
+              ]
+            },
+            "fr": {
+              "title": "Français",
+              "info": "Je peux tenir des conversations de base en français.",
+              "tags": [
+                "Moyen"
+              ]
+            },
+            "nl": {
+              "title": "Frans",
+              "info": "Ik kan eenvoudige gesprekken in het Frans voeren.",
+              "tags": [
+                "Gemiddeld"
+              ]
+            },
+            "gh": {
+              "title": "Frɛnkɛ",
+              "info": "Mɛtumi akasa frɛnkɛ wɔ ɛho kakra.",
+              "tags": [
+                "Ɔyɛ mmerɛ"
+              ]
+            },
+            "ge": {
+              "title": "Französisch",
+              "info": "Ich kann einfache Gespräche auf Französisch führen.",
+              "tags": [
+                "Mittel"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/ghana.png",
+            "fa": null,
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "value": null,
+          "dates": {
+            "start": null
+          },
+          "locales": {
+            "en": {
+              "title": "Twi",
+              "info": "I can write and hold very advanced conversations in Twi.",
+              "tags": [
+                "Fluent"
+              ]
+            },
+            "es": {
+              "title": "Twi",
+              "info": "Puedo escribir y mantener conversaciones muy avanzadas en Twi.",
+              "tags": [
+                "Fluido"
+              ]
+            },
+            "fr": {
+              "title": "Twi",
+              "info": "Je peux écrire et tenir des conversations très avancées en Twi.",
+              "tags": [
+                "Courant"
+              ]
+            },
+            "nl": {
+              "title": "Twi",
+              "info": "Ik kan zeer geavanceerde gesprekken in het Twi voeren en schrijven.",
+              "tags": [
+                "Vloeiend"
+              ]
+            },
+            "gh": {
+              "title": "Twi",
+              "info": "Mɛtumi akyerɛw na akasa Twi paa.",
+              "tags": [
+                "Pɛyɛ"
+              ]
+            },
+            "ge": {
+              "title": "Twi",
+              "info": "Ich kann sehr fortgeschrittene Gespräche auf Twi führen und schreiben.",
+              "tags": [
+                "Fließend"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
 }

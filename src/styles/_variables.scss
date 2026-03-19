@@ -10,7 +10,7 @@ $z-index-sidebar: 100;
 $z-index-nav-tabs: 200;
 $z-index-modal: 9000;
 $z-index-notifications: 9500;
-$z-index-dialogs:9800;
+$z-index-dialogs: 9800;
 $z-index-activity-spinner: 9990;
 $z-index-animated-cursor: 9995;
 $z-index-loader: 9999;
@@ -28,7 +28,7 @@ $sidebar-min-breakpoint: md;
 
 /** COLORS - overriding bootstrap colors **/
 $primary: #4CAF50;
-$secondary: #5D6D7E ;
+$secondary: #5D6D7E;
 $dark: #1B1B1B;
 $light: #F4F4F4;
 
@@ -41,51 +41,54 @@ $loader-background-color: #111111;
 
 /** COLORS - dark theme palette **/
 :root {
-    --theme-main: #1B1B1B; // Charcoal Black
-    --theme-main-2: #242424;
-    --theme-main-3: #2E2E2E;
-    --theme-main-4: #383838;
+    --theme-main: #03030B; // Deep Obsidian
+    --theme-main-2: #0A0A1F;
+    --theme-main-3: #11112B;
+    --theme-main-4: #1A1A3D;
 
-    --theme-secondary: #F4F4F4; // Light Gray for text and content
-    --theme-secondary-2: #D7D7D7;
-    --theme-secondary-3: #B0B0B0;
-    --theme-secondary-4: #8C8C8C;
+    --theme-secondary: #F0F9FF; // Arctic White
+    --theme-secondary-2: #E0F2FE;
+    --theme-secondary-3: #BAE6FD;
+    --theme-secondary-4: #7DD3FC;
 
-    --theme-soft: #2A2A2A; // Soft Dark Tone
-    --theme-soft-2: #333333;
-    --theme-soft-3: #3C3C3C;
+    --theme-soft: rgba(0, 242, 255, 0.05); // Neon Cyan tint
+    --theme-soft-2: rgba(189, 0, 255, 0.05); // Purple tint
+    --theme-soft-3: rgba(255, 255, 255, 0.03);
 
-    // Replaced with teal and turquoise accent colors
-    --theme-highlight: #1DE9B6; // Turquoise - Fresh and vibrant yet soothing
-    --theme-highlight-2: #00B8D4; // Lighter Teal - Subtle and calm for secondary accents
-    --theme-highlight-3: #4DD0E1; // Soft Turquoise - A gentle pop for hover or soft highlights
+    // 2026 Neon-Cyberpunk Accent Colors
+    --theme-highlight: #00F2FF; // Neon Cyan
+    --theme-highlight-2: #BD00FF; // Electric Purple
+    --theme-highlight-3: #CCFF00; // Lime Neon
 
-    --theme-dark: #101010; // Deep Black
-    --theme-dark-opacity: rgba(16, 16, 16, 0.9);
-    --theme-muted: #8A8A8A; // Muted Gray for less important elements
-    --theme-white: #F4F4F4; // Light color for text and backgrounds
+    --theme-dark: #010105;
+    --theme-dark-opacity: rgba(1, 1, 5, 0.9);
+    --theme-muted: #334155;
+    --theme-white: #FFFFFF;
 
-    --theme-bg-color: #1B1B1B; // Charcoal Black background
-    --theme-section-background: #242424; // Dark Section background
-    --theme-section-background-opacity: rgba(36, 36, 36, 0.9);
-    --theme-tag-color: #333333; // For tags or labels
-    --theme-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); // Subtle shadow for depth
+    --theme-bg-color: #03030B;
+    --theme-section-background: #050512;
+    --theme-section-background-opacity: rgba(5, 5, 18, 0.85);
+    --theme-tag-color: #0F172A;
+    --theme-box-shadow: 0 0 20px rgba(0, 242, 255, 0.1);
 
-    // Navigation and selected states with new teal highlight colors
-    --theme-nav-background: #242424;
-    --theme-nav-background-disabled: #1F1F1F;
-    --theme-nav-secondary: #F4F4F4; // Light Text for nav items
-    --theme-nav-highlight: #1DE9B6; // Turquoise for active nav items
-    --theme-nav-selected: #00B8D4; // Lighter Teal for selected nav items
+    // Glassmorphism Helpers
+    --glass-background: rgba(3, 3, 11, 0.7);
+    --glass-border: rgba(0, 242, 255, 0.2);
+    --glass-blur: 20px;
+    --glass-glow: 0 0 15px rgba(0, 242, 255, 0.2);
 
-    // Scrollbar and other small UI elements
-    --theme-scrollbar-track: #2A2A2A;
-    --theme-scrollbar-thumb: #555555; // Subtle thumb color for scrollbar
+    --theme-nav-background: #050512;
+    --theme-nav-background-disabled: #010105;
+    --theme-nav-secondary: #F0F9FF;
+    --theme-nav-highlight: #00F2FF;
+    --theme-nav-selected: #BD00FF;
 
-    // Chart and other accent borders
-    --theme-chart-borders: #1DE9B6; // Turquoise chart borders for gentle contrast
+    --theme-scrollbar-track: #03030B;
+    --theme-scrollbar-thumb: #00F2FF;
 
-    --theme-danger: #FF5252; // Soft Red for danger or error alerts
+    --theme-chart-borders: #00F2FF;
+
+    --theme-danger: #FF0055;
 }
 
 

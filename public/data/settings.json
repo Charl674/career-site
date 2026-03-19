@@ -4,7 +4,7 @@
     "fullScreenButtonEnabled": true,
 
     "preloader": {
-        "enabled": false,
+        "enabled": true,
         "title": "<b>Career</b> Showcase",
         "subtitle": " - Emmanuel Haick"
     },

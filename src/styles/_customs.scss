@@ -1,8 +1,8 @@
 /** Customizing Bootstrap/Swiper components... **/
 button {
     &:focus {
-        box-shadow: none!important;
-        outline: none!important;
+        box-shadow: none !important;
+        outline: none !important;
         transition: none;
     }
 }
@@ -12,17 +12,23 @@ button {
 }
 
 .btn-primary {
-    background-color: var(--theme-soft-3);
-    color: var(--theme-secondary);
-    border: 0;
+    background: var(--theme-highlight);
+    color: var(--theme-main);
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 242, 255, 0.4);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover, &:focus, &:active {
-        background-color: var(--theme-highlight)!important;
-        color: var(--theme-dark)!important;
+    &:hover,
+    &:focus,
+    &:active {
+        background: var(--theme-highlight-2) !important;
+        color: white !important;
+        transform: translateY(-2px) scale(1.05);
+        box-shadow: 0 0 20px rgba(189, 0, 255, 0.6);
     }
 
     &.disabled {
-        background-color: var(--theme-soft-3);
+        background: var(--theme-soft-3);
         color: var(--theme-secondary);
         opacity: 0.2;
     }
@@ -33,9 +39,11 @@ button {
     color: var(--theme-dark);
     border: 0;
 
-    &:hover, &:focus, &:active {
-        background-color: var(--theme-secondary)!important;
-        color: var(--theme-dark)!important;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--theme-secondary) !important;
+        color: var(--theme-dark) !important;
     }
 
     &.disabled {
@@ -50,9 +58,11 @@ button {
     color: var(--theme-dark);
     border: 0;
 
-    &:hover, &:focus, &:active {
-        background-color: var(--theme-highlight-2)!important;
-        color: var(--theme-dark)!important;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--theme-highlight-2) !important;
+        color: var(--theme-dark) !important;
     }
 
     &.disabled {
@@ -93,26 +103,36 @@ button {
 .btn.selected {
     user-select: none;
     pointer-events: none;
-    background-color: var(--theme-highlight)!important;
-    color: var(--theme-dark)!important;
+    background-color: var(--theme-highlight) !important;
+    color: var(--theme-dark) !important;
 }
 
 .card {
-    background-color: var(--theme-soft);
+    background: var(--glass-background);
+    backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
     color: var(--theme-secondary);
-    border: 0;
     border-radius: $standard-border-radius;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+    box-shadow: var(--glass-glow);
 
-    &-header, &-footer {
+    &:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 10px 30px rgba(0, 242, 255, 0.3);
+        border-color: var(--theme-highlight);
+    }
+
+    &-header,
+    &-footer {
         background-color: transparent;
     }
 
     &-header {
-        border-bottom: 1px solid var(--theme-soft-2)
+        border-bottom: 1px solid var(--glass-border)
     }
 
     &-footer {
-        border-top: 1px solid var(--theme-soft-2)
+        border-top: 1px solid var(--glass-border)
     }
 }
 
@@ -130,18 +150,20 @@ button {
     span.menu-item-label {
         color: var(--theme-secondary);
         font-size: 0.9rem;
-        opacity: 0.7!important;
+        opacity: 0.7 !important;
     }
 
     &:focus {
         outline: none;
     }
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         background-color: var(--theme-highlight);
+
         span.menu-item-label {
             color: var(--theme-dark);
-            opacity: 1!important;
+            opacity: 1 !important;
         }
     }
 }
@@ -161,8 +183,8 @@ button {
 }
 
 span.swiper-pagination-bullet {
-    width: 20px!important;
-    height: 5px!important;
+    width: 20px !important;
+    height: 5px !important;
     position: relative;
     top: 12px;
     background: var(--theme-muted);
